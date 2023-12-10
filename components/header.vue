@@ -56,7 +56,7 @@
                     <ul class="py-2"><NuxtLink :to="{ name: 'profilk3' }">Profil K3</NuxtLink></ul>
                     <ul class="py-2"><NuxtLink :to="{ name: 'strukturorganisasik3' }">Struktur Organisasi K3</NuxtLink></ul>
                     <ul class="py-2"><NuxtLink :to="{ name: 'tentangk3' }">Tentang K3 FT-UH</NuxtLink></ul>
-                    <ul class="py-2"><NuxtLink :to="{ name: 'filependukung' }">File Pendukung</NuxtLink></ul>
+                    <!-- <ul class="py-2"><NuxtLink :to="{ name: 'filependukung' }">File Pendukung</NuxtLink></ul> -->
                 </div>
             </div>
             <p class="text-2xl">|</p>
