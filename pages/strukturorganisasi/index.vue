@@ -1,7 +1,7 @@
 <template>
     <main class="overflow-x-hidden">
         <!-- header -->
-        <section class="my-10 my-24">
+        <section class="my-10 py-24">
             <div class="h-[202px] relative">
                 <img class="w-[100%] left-0 top-2 absolute" src="../assets/image/jkcenterhlm.png" />
                 <div class="w-[474px] h-[45px] relative top-20 left-20">

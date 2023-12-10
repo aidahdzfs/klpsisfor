@@ -15,14 +15,46 @@
         <!-- header end -->
 
         <section class="my-10 py-8 ml-28">
+
+            <!-- <div id="kalender">
+                <div v-for="item in kalenderData" :key="item.id">
+                    <div class="flex flex-row">
+                        <img :src="getImageUrl(item.gambar)" :alt="`kalender ${item.id}`" class=" max-w-xl mr-10">
+                    </div>
+                </div>
+
+            </div> -->
             <div class="">
                 <h1 class="text-black text-3xl font-bold pb-2">Kalender Akademik</h1>
                 <img src="../assets/image/Rectangle19.png" class="mb-10">
             </div>
-            <div class="flex">
+            <div class="flex items-center justify-center">
                 <img src="../assets/image/kalenderakademik.png" alt="kalenderakademik" class="max-w-xl mr-10">
                 <img src="../assets/image/kalenderakademik2.jpg" alt="kalenderakademik" class="max-w-xl">
             </div>
         </section>
     </main>
 </template>
+
+
+<!-- <script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/kalender"
+    const kalenderData = ref([]);
+
+    async function getKalender() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        kalenderData.value = data.data
+    }
+
+    onMounted(() => {
+        getKalender();
+    })
+
+    const getImageUrl = (imageName) => {
+        return `http://localhost:8055/assets/${imageName}`
+    }
+</script> -->
