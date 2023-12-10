@@ -19,15 +19,29 @@
                 <h1 class="text-black text-3xl font-bold pb-2">Program Magister</h1>
                 <img src="../assets/image/Rectangle19.png" class="ml-100">
             </div>
-            <div class="w-[100vw] text-black text-base font-medium text-justify justify-center ml-28 mt-10 pr-56">
-                Program Magister bertujuan untuk menghasilkan insan cendekia berkarakter mulia yang memiliki pengetahuan mendalam dan keterampilan spesifik pada bidang tertentu sesuai dengan Jenjang 8 (delapan) dalam Kerangka Kualifikasi Nasional Indonesia (KKNI) dan sejalan dengan Standar Nasional Pendidikan Tinggi (SNDikti).
-                    <br/><br/>Kurikulum Program Magister harus memuat beban studi minimal 36 sks dan maksimal 42 sks dengan batas waktu studi paling lama 8 (delapan) semester. Beban studi Program Magister adalah minimal 16 sks berupa kuliah terstruktur, dan 20 sks berupa seminar proposal, seminar hasil penelitian, tesis dan publikasi jurnal internasional atau jurnal nasional terakreditasi. Kuliah terstruktur terdiri dari maksimal 9 sks berupa matakuliah wajib program studi dan minimal 10 sks mata kuliah pilihan. Jumlah sks maksimum per semester yang dapat diikuti oleh mahasiswa Program Magister adalah 18 (delapan belas) sks.
-                    <br/><br/>Masa studi Program Magister dijadwalkan untuk 4 (empat) semester dan dapat ditempuh dalam waktu sekurang-kurangnya 2 (dua) semester dan selama-lamanya 8 (delapan) semester. Mahasiswa Program Magister yang tidak dapat menyelesaikan studinya pada akhir Semester 8 (delapan) dinyatakan putus studi secara otomatis.
-                    <br/><br/>Mahasiswa Program Magister wajib menerbitkan (Accepted) minimal 1 (satu) artikel terkait penelitian tesis pada jurnal internasional atau jurnal nasional terakreditasi.
-                    <br/><br/>Program Magister yang ditawarkan di Fakultas Teknik Universitas Hasanuddin dapat dilihat pada halaman
-                <a href="../departemen" class=" text-navy">departemen.</a> Jika anda berminat untuk mendaftar di salah satu Program Magister, maka anda dapat melihat informasi lebih lanjut pada halaman pendaftaran mahasiswa baru di
-                <a href="#" class=" text-navy">Sekolah Pascasarjana Universitas Hasanuddin.</a>
+            <div v-for="item in magisterData" :key="item.id" class="w-[100vw] text-black text-base font-medium text-justify justify-center ml-28 mt-10 pr-56">
+                <p class="font-medium" style="font-size: 20px;" v-html="item.isi"></p>
             </div>
         </section>
     </main>
 </template>
+
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/magister"
+    const magisterData = ref('');
+
+    async function getMagister() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        magisterData.value = data.data
+    }
+
+    onMounted(() => {
+        getMagister();
+    })
+
+</script>

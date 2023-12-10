@@ -19,6 +19,9 @@
                 <h1 class="text-black text-3xl font-bold pb-2">PERPUSTAKAAN</h1>
                 <img src="../assets/image/Rectangle19.png" class="ml-100">
             </div>
+            <div class="font-medium text-justify px-28 pt-10" style="font-size: 20px;">
+                <a href="https://web.unhas.ac.id/perpustakaan/">Perpustakaan Fakultas Teknik Universitas Hasanuddin</a>
+            </div>
         </section>
     </main>
 </template>

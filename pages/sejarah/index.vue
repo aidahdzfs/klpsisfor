@@ -14,13 +14,19 @@
         </section>
         <!-- header end -->
 
-        <section class="pt-8">
+        <section class="mt-10 py-8">
+            <div class="ml-28">
+                <h1 class="text-black text-3xl font-bold pb-2">SEJARAH SINGKAT</h1>
+                <img src="../assets/image/Rectangle19.png" class="ml-100">
+            </div>
             <div id="sejarah">
                 <div v-for="item in sejarahData" :key="item.id">
-                    <div style="margin-bottom: 50px;">
-                        <p class="font-medium" style="font-size: medium;" v-html="item.isi"></p>
+                    <div style="margin-bottom: 20px;">
+                        <p class="font-medium text-justify px-28 pt-10" style="font-size: 20px;" v-html="item.isi"></p>
                     </div>
-                    <img :src="getImageUrl(item.gambar)" :alt="`sejarah ${item.id}`"/>
+                    <div class="flex items-center justify-center">
+                        <img :src="getImageUrl(item.gambar)" :alt="`sejarah ${item.id}`" class="w-[850px] h-[450px] mt-10 mb-20"/>
+                    </div>
                 </div>
             </div>
         </section>

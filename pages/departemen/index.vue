@@ -18,7 +18,7 @@
                 <h1 class="text-black text-3xl font-bold pb-2">Departemen di Fakultas Teknik Universitas Hasanuddin</h1>
                 <img src="../assets/image/Rectangle19.png" class="ml-100">
             </div>
-            <div class="ml-28 mt-5 mb-20 pr-56 text-base">
+            <div v-for="item in departemenData" :key="item.id" class="ml-28 mt-5 mb-20 pr-56 text-base">
                 <div>
                     <a href="https://civil.unhas.ac.id/" class="text-sky-700 hover:text-navy">1. Departemen Teknik Sipil</a>
                     <ul class="list-outside list-disc ml-8 mb-4">
@@ -113,7 +113,31 @@
                         <li>Program Magister Teknik Lingkungan (Akreditasi Baik Sekali BAN-PT)</li>
                     </ul>
                 </div>
+                <!-- <div v-for="item in departemenData" :key="item.id" class="ml-28 mt-5 mb-20 pr-56 text-base">
+                <div>
+                    <p v-html="item.dept"></p>
+                </div>
+            </div> -->
             </div>
         </section>
     </main>
 </template>
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/departemen"
+    const departemenData = ref('');
+
+    async function getDepartemen() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        departemenData.value = data.data
+    }
+
+    onMounted(() => {
+        getDepartemen();
+    })
+
+</script>

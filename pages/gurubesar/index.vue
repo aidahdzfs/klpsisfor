@@ -19,6 +19,9 @@
                 <h1 class="text-black text-3xl font-bold pb-2">GURU BESAR</h1>
                 <img src="../assets/image/Rectangle19.png" class="ml-100">
             </div>
+            <div class="flex items-center justify-center pt-10">
+                <img src="../assets/image/gurubesar.png" alt="gurubesar" class="w-[1275px] h-[3157px]">
+            </div>
         </section>
     </main>
 </template>

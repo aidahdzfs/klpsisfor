@@ -19,19 +19,37 @@
                 <h1 class="text-black text-3xl font-bold pb-2">Program Doktor</h1>
                 <img src="../assets/image/Rectangle19.png" class="ml-100">
             </div>
-            <div class="w-[100vw] text-black text-base font-medium text-justify justify-center ml-28 mt-10 pr-56">
-                Program Doktor bertujuan untuk menghasilkan insan cendekia berkarakter mulia yang memiliki pengetahuan mendalam dan keterampilan spesifik pada bidang tertentu sesuai dengan Jenjang 9 dalam Kerangka Kualifikasi Nasional Indonesia (KKNI) dan sejalan dengan Standar Nasional Pendidikan Tinggi (SNDikti).
-                <br/><br/>Penyelenggaraan Program Doktor dikategorikan atas:<br/>
-                <ol type="1">
+            <div v-for="item in doktorData" :key="item.id">
+                <p class="font-medium text-justify px-28 pt-10" style="font-size: 20px;" v-html="item.isi"></p>
+                <!-- <ol type="1">
                     <li>1. Program Doktor berbasis kuliah dan riset, dan</li>
                     <li>2. Program Doktor berbasis riset.</li>
-                </ol>    
-                <br/>Beban studi Program Doktor bagi peserta yang berpendidikan magister (S2) sekurang-kurangnya 42 sks dan sebanyak-banyaknya 48 sks termasuk disertasi yang dijadwalkan untuk 6 (enam) semester dan dapat ditempuh sekurang-kurangnya 5 (lima) semester dengan masa studi selama-lamanya 10 (sepuluh) semester. Dari seluruh beban studi Program Doktor berbasis kuliah dan riset, minimal 20 sks berupa kuliah terstruktur dengan ketentuan maksimal 9 sks berupa matakuliah wajib program studi serta beban disertasi, publikasi, dan keikutsertaan pada seminar internasional minimal 22 sks. Dari seluruh beban studi Program Doktor berbasis riset, 8 sks berupa seminar terstruktur yang dijalankan di program studi serta beban disertasi, publikasi, dan seminar internasional minimal 34 sks.
-                 <br/><br/>Program Doktor yang ditawarkan di Fakultas Teknik Universitas Hasanuddin dapat dilihat pada halaman 
-                <a href="../departemen" class=" text-navy">departemen.</a> Jika anda berminat untuk mendaftar di salah satu Program Magister, maka anda dapat melihat informasi lebih lanjut pada halaman pendaftaran mahasiswa baru di
-                <a href="#" class=" text-navy">Sekolah Pascasarjana Universitas Hasanuddin.</a>
+                </ol>  -->
             </div>
 
         </section>
     </main>
 </template>
+
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/doktor"
+    const doktorData = ref('');
+
+    async function getDoktor() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        doktorData.value = data.data
+    }
+
+    onMounted(() => {
+        getDoktor();
+    })
+
+    const getImageUrl = (imageName) => {
+        return `http://localhost:8055/assets/${imageName}`
+    }
+</script>
