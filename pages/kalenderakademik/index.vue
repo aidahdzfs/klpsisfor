@@ -25,7 +25,7 @@
 
             </div> -->
             <div class="">
-                <h1 class="text-black text-3xl font-bold pb-2">Kalender Akademik</h1>
+                <h1 class="text-black text-3xl font-bold pb-2">KALENDER AKADEMIK</h1>
                 <img src="../assets/image/Rectangle19.png" class="mb-10">
             </div>
             <div class="flex items-center justify-center">

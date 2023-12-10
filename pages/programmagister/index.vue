@@ -16,7 +16,7 @@
 
         <section class="py-8 my-10">
             <div class="ml-28">
-                <h1 class="text-black text-3xl font-bold pb-2">Program Magister</h1>
+                <h1 class="text-black text-3xl font-bold pb-2">PROGRAM MAGISTER</h1>
                 <img src="../assets/image/Rectangle19.png" class="ml-100">
             </div>
             <div v-for="item in magisterData" :key="item.id" class="w-[100vw] text-black text-base font-medium text-justify justify-center ml-28 mt-10 pr-56">

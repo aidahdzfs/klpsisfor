@@ -17,7 +17,7 @@
         <section class="mt-10 py-8">
             <div class="ml-28">
                 <h1 class="text-black text-3xl font-bold pb-2">SEJARAH SINGKAT</h1>
-                <img src="../assets/image/Rectangle19.png" class="ml-100">
+                <img src="../assets/image/line.png" class="ml-100">
             </div>
             <div id="sejarah">
                 <div v-for="item in sejarahData" :key="item.id">

@@ -17,9 +17,9 @@
         <section class="my-10 ml-28 py-8">
             <div >
                 <h1 class="text-black text-3xl font-bold pb-2">TENTANG K3</h1>
-                <img src="../assets/image/Rectangle19.png">
+                <img src="../assets/image/Rectangle19.png" class="w-60 h-1">
             </div>
-            <div class=" my-5 pr-[155px] text-justify leading-relaxed">
+            <div class=" my-8 pr-[155px] text-justify leading-relaxed">
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dalam mendukung visi Fakultas Teknik Universitas Hasanuddin dalam mewujudkan institusi unggulan dalam bidang rekayasa untuk keberlanjutan global dengan semangat budaya maritim, Maka Kenyamanan, keselamatan, dan Kesehatan kerja dalam naungan Fakultas Teknik Universitas Hasanuddin adalah hal yang penting. Untuk itu, Fakultas Teknik Universitas Hasanuddin berkomitmen dalam mencapai visi dengan menerapkan:</p>
             </div>
             <ol class="list-outside list-decimal ml-10 text-left space-y-3 pr-[155px]">

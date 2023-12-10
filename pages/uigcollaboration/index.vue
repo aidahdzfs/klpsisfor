@@ -15,9 +15,9 @@
         <!-- header end -->
 
         <section class="py-8 my-10 ml-28">
-            <div class="font-semibold pr-[155px] text-justify leading-relaxed">
+            <div class="pr-[155px] text-justify leading-relaxed">
                 <p class="mb-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dalam rangka pencapaian visi Universitas Hasanuddin (Unhas) sebagai pusat unggulan dalam pengembangan insani, ilmu pengetahuan, teknologi, seni dan budaya berbasis benua maritim Indonesia, maka fakuktas Teknik Unhas membentuk suatu unit kerja yang dikenal dengan nama Center of Technology (CoT). Fungsi utama CoT dimaksudkan untuk mengkoordinir dan menjembatani kerja kolaborasi kemitraan antara Universitas, Industri, dan Pemerintah (U-I-G Collaboration) khususnya di Kawasan Timur Indonesia (KTI).</p>
-                <p class="">For Further Information klik: <span class="text-sky-700 hover:text-navy"><a href="https://cot.unhas.ac.id/">http://cot.unhas.ac.id/</a></span></p>
+                <p class="">For Further Information klik: <span class="font-semibold text-sky-700 hover:text-navy"><a href="https://cot.unhas.ac.id/">http://cot.unhas.ac.id/</a></span></p>
             </div>
         </section>
     </main>

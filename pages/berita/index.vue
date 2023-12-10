@@ -15,9 +15,10 @@
         <!-- header end -->
 
     <!-- berita start -->
-    <section class="px-16 mt-10">
-      <div class="ml-28 text-black text-3xl font-bold">BERITA
-        <img src="../assets/image/Rectangle19.png" class="ml-100">
+    <section class="ml-28 px-16 mt-10">
+      <div>
+        <h1 class="text-black text-3xl font-bold pb-2">BERITA</h1>
+        <img src="../assets/image/line.png" class="w-56 h-1">
       </div>
       <div id="berita" class="text-justify grid gap-24 grid-cols-2 pt-10 pr-40">
         <div v-for="item in berita1Data" :key="item.id">

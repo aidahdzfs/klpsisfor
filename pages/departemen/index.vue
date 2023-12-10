@@ -15,7 +15,7 @@
 
         <section class="my-10 py-8">
             <div class="ml-28">
-                <h1 class="text-black text-3xl font-bold pb-2">Departemen di Fakultas Teknik Universitas Hasanuddin</h1>
+                <h1 class="text-black text-3xl font-bold pb-2">DEPARTEMEN FT-UH</h1>
                 <img src="../assets/image/Rectangle19.png" class="ml-100">
             </div>
             <div v-for="item in departemenData" :key="item.id" class="ml-28 mt-5 mb-20 pr-56 text-base">

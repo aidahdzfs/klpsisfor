@@ -17,10 +17,10 @@
         <section class="my-10 py-8">
             <div class="ml-28">
                 <h1 class="text-black text-3xl font-bold pb-2">PERPUSTAKAAN</h1>
-                <img src="../assets/image/Rectangle19.png" class="ml-100">
+                <img src="../assets/image/linependek.png" class="w-72 h-1">
             </div>
-            <div class="font-medium text-justify px-28 pt-10" style="font-size: 20px;">
-                <a href="https://web.unhas.ac.id/perpustakaan/">Perpustakaan Fakultas Teknik Universitas Hasanuddin</a>
+            <div class="text-justify px-28 pt-10" style="font-size: 16px;">
+                <a href="https://web.unhas.ac.id/perpustakaan/" class="text-sky-700  hover:text-navy">Perpustakaan Fakultas Teknik Universitas Hasanuddin</a>
             </div>
         </section>
     </main>

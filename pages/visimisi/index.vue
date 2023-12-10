@@ -18,7 +18,7 @@
             <div>
                 <div class="ml-28">
                     <h1 class="text-black text-3xl font-bold pb-2">VISI</h1>
-                    <img src="../assets/image/Rectangle18.png" class="ml-100 w-72 h-1">
+                    <img src="../assets/image/line.png" class="w-48 h-1">
                 </div>
                 <div class="w-[100vw] text-black text-base font-medium text-justify justify-center ml-28 mt-6 mb-10 pr-56">Menjadi institusi unggulan dalam bidang rekayasa untuk keberlanjutan global dengan semangat budaya maritim.</div>
             </div>
@@ -28,7 +28,7 @@
             <div>
                 <div class="ml-28">
                     <h1 class="text-black text-3xl font-bold pb-2">MISI</h1>
-                    <img src="../assets/image/Rectangle18.png" class="ml-100 w-72 h-1">
+                    <img src="../assets/image/Rectangle18.png" class="w-48 h-1">
                 </div>
                 <div class="w-[100vw] text-black text-base font-medium text-justify justify-center ml-28 mt-6 mb-10 pr-56">
                     <ul class="list-outside list-disc ml-4 mb-4">
@@ -43,8 +43,9 @@
 
             <!-- Sasaran -->
             <div>
-                <div class="ml-28 text-black text-3xl font-bold">SASARAN
-                <img src="../assets/image/Rectangle18.png" class="ml-100 w-72 h-1">
+                <div class="ml-28">
+                    <h1 class="text-black text-3xl font-bold pb-2">SASARAN</h1>
+                <img src="../assets/image/Rectangle18.png" class="w-48 h-1">
                 </div>
                 <div class="w-[100vw] text-black text-base font-medium text-justify justify-center ml-28 mt-6 mb-10 pr-56">
                     <ul class="list-outside list-disc ml-4 mb-4">

@@ -16,7 +16,7 @@
 
         <section class="py-8 my-10">
             <div class="ml-28">
-                <h1 class="text-black text-3xl font-bold pb-2">Program Doktor</h1>
+                <h1 class="text-black text-3xl font-bold pb-2">PROGRAM DOKTOR</h1>
                 <img src="../assets/image/Rectangle19.png" class="ml-100">
             </div>
             <div v-for="item in doktorData" :key="item.id">

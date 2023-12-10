@@ -18,15 +18,15 @@
             <div id="akreditasi">
                 <div v-for="item in akreditasiData" :key="item.id" class="ml-28">
                     <h1 class="text-black text-3xl font-bold pb-2" v-html="item.judul"></h1>
-                    <img src="../assets/image/Rectangle19.png" class="ml-100">
+                    <img src="../assets/image/Rectangle19.png">
 
                     <div class="flex items-center justify-center pt-20">
                         <img :src="getImageUrl(item.gambar)" :alt="`akreditasi ${item.id}`" class="h-[600] w-[1200px] mb-20" />
                     </div>
                 </div>
-                <div class="mb-10 ml-28" style="font-size: larger; ">
+                <div class="mb-10 ml-28">
                     <p>Sertifikat dan SK Akreditasi dapat diunduh melalui link berikut:</p>
-                    <a href="https://drive.google.com/drive/folders/139BQ4DSVSioV6HBHJt40AFobDsM6Egka" class=" text-sky-600">SK Akreditasi FT 2020-2021</a>
+                    <a href="https://drive.google.com/drive/folders/139BQ4DSVSioV6HBHJt40AFobDsM6Egka" class="font-semibold text-sky-700 hover:text-navy">SK Akreditasi FT 2020-2021</a>
                 </div>
                 
             </div>

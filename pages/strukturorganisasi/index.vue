@@ -1,7 +1,7 @@
 <template>
     <main class="overflow-x-hidden">
         <!-- header -->
-        <section class="my-10 py-24">
+        <section class="pt-24">
             <div class="h-[202px] relative">
                 <img class="w-[100%] left-0 top-2 absolute" src="../assets/image/jkcenterhlm.png" />
                 <div class="w-[474px] h-[45px] relative top-20 left-20">
@@ -13,10 +13,10 @@
         </section>
         <!-- header end -->
 
-        <section class="my-10 py-8">
-            <div class="ml-28">
+        <section class="ml-28 my-10 py-8">
+            <div>
                 <h1 class="text-black text-3xl font-bold pb-2">STRUKTUR ORGANISASI</h1>
-                <img src="../assets/image/Rectangle19.png" class="ml-100">
+                <img src="../assets/image/Rectangle19.png">
             </div>
             <img src="../assets/image/struktur.png" alt="struktur" class="pt-16 pb-20 px-80">
         </section>
