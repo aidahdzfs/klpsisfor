@@ -25,9 +25,6 @@
                     <ul class="py-2"><NuxtLink :to="{ name: 'sejarah' }">Sejarah Singkat</NuxtLink></ul>
                     <ul class="py-2"><NuxtLink :to="{ name: 'manajemen' }">Manajemen</NuxtLink></ul>
                     <ul class="py-2"><NuxtLink :to="{ name: 'strukturorganisasi' }">Struktur Organisasi</NuxtLink></ul>
-                    <ul class="py-2"><NuxtLink :to="{ name: 'masterplan' }">Master Plan</NuxtLink></ul>
-                    <ul class="py-2"><NuxtLink :to="{ name: 'petakampus' }">Peta Kampus</NuxtLink></ul>
-                  
                 </div>
             </div>
             <p class="text-2xl">|</p>

@@ -34,11 +34,11 @@
           <img class="ml-5" src="../assets/image/sponsor2.png" alt="sponsor2">
         </div>
       <div class="mt-10">
-        <div class="flex space-x-3 text-xs">
+        <div class="flex space-x-3 text-xs pb-5">
           <img src="../assets/image/maps.png" alt="titik">
           <p class="text-white">Jl.Poros Malino Km. 6 Bontomarannu <br>92171 Gowa, Sulawesi Selatan</p>
         </div>
-        <img class="mt-5" src="../assets/image/maps2.png" alt="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.176361351605!2d119.49737039678953!3d-5.230259999999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee13639154f11%3A0x77d363f632d6f859!2sUniversitas%20Hasanuddin%20Kampus%20FAKULTAS%20TEKNIK%20Gowa!5e1!3m2!1sid!2sid!4v1702149065093!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
     </section>
