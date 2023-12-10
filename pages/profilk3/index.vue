@@ -14,10 +14,29 @@
         </section>
         <!-- header end -->
 
-        <section class="pt-8">
-            <div class="ml-28 text-black text-3xl font-bold">PROFIL K3
-                <img src="../assets/image/Rectangle19.png" class="ml-100">
+        <section class="py-8 my-10 ml-28">
+            <div>
+                <h1 class="text-black text-3xl font-bold pb-2">PROFIL K3</h1>
+                <img src="../assets/image/Rectangle19.png">
             </div>
+            <div class="my-5 pr-[155px] text-justify leading-relaxed">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pimpinan Fakultas Teknik Universitas Hasanuddin berkomitmen melaksanakan dan menerapkan sistem manajemen keselamatan dan kesehatan kerja. Untuk mendukung hal tersebut, Pimpinan Fakultas Teknik Universitas Hasanuddin bertanggungjawab secara keseluruhan untuk mencegah terjadinya kecelakaan kerja, penyakit akibat kerja, dan menjaga lingkungan disekitar area kerja, memberikan fasilitas sarana dan prasarana tempat kerja yang aman, sehat, dan nyaman dengan mengambil langkah sebagai berikut:</p>
+            </div>    
+            <ol class="list-outside list-decimal ml-10 text-left space-y-3 pr-[155px] font-semibold text-sm">
+                <li>Memastikan bahwa kebijakan dan Tujuan yang terkait dengan keselamatan dan Kesehatan kerja ditetapkan dalam sistem manajemen keselamatan dan kesehatan kerja dan terintegrasi dalam proses bisnis</li>
+                <li>Memastikan sumber daya yang dibutuhkan untuk system manejemen keselamatan dan kesehatan kerja tersedia</li>
+                <li>Menyusun persyaratan dan Standar operasional prosedur dalam menerapkan system keselamatan dan kesehatan kerja</li>
+                <li>Memastikan bahwa pentingnya system keselamatan dan kesehatan kerja</li>
+                <li>yang efektif dan kepatuhan terhadap keselamatan dan kesehatan kerja tersampaikan dari dekanat hingga unit-unit departemen</li>
+                <li>Mengarahkan dan mendukung pekerja untuk berkontribusi pada penerapan efektivitas sistem manajemen keselamatan dan kesehatan kerja</li>
+                <li>Mendukung peran manajemen dalam melaksanakan sistem manajemen keselamatan dan kesehatan kerja</li>
+                <li>Menciptakan dan mengembangkan budaya dalam organisasi yang mendukung hasil yang diinginkan dari sistem manajemen keselamatan dan kesehatan kerja</li>
+                <li>Memberikan rasa aman dan perlindungan bagi pekerja saat melaporkan insiden, bahaya, risiko dan peluang.</li>
+                <li>Memastikan organisasi menetapkan dan menerapkan proses untuk konsultasi dan partisipasi kerja</li>
+                <li>Mendukung pembentukan dan berfungsinya komite keselamatan dan kesehatan kerja</li>
+                <li>Mendukung sistem manajemen keselamatan dan kesehatan kerja</li>
+                <li>dalam peningkatan berkelanjutan</li>
+            </ol>
         </section>
     </main>
 </template>
