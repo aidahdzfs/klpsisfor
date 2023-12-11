@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-      <p class="text-blue text-sm text-center pt-20 cursor-pointer">Lihat berita nasional yang lain>></p>
+      <p class="text-blue text-sm text-center pt-20 cursor-pointer"><NuxtLink to="/berita"> Lihat berita nasional yang lain>></NuxtLink></p>
       <img src="../assets/image/line2.png" alt="error" class="pt-10">
 
 

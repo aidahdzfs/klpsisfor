@@ -32,10 +32,10 @@
                         <a href="#" class="flex items-center justify-center px-6 h-12 text-zinc-700 bg-white border border-gray rounded-s-lg hover:bg-amber-600 dark:bg-white dark:border-gray dark:hover:text-white">Prev</a>
                     </li>
                     <li>
-                        <a href="#" class="flex items-center justify-center px-6 h-12 text-zinc-700 bg-white border border-gray hover:bg-amber-600 dark:bg-white dark:border-gray dark:hover:text-white active:bg-amber-600">1</a>
+                        <a href="#" class="flex items-center justify-center px-6 h-12 text-white hover:bg-white border border-gray bg-amber-600 dark:border-gray dark:hover:text-zinc-700">1</a>
                     </li>
                     <li>
-                        <a href="#" class="flex items-center justify-center px-6 h-12 text-zinc-700 bg-white border border-gray hover:bg-amber-600 dark:bg-white dark:border-gray dark:hover:text-white">2</a>
+                        <a href="#" class="flex items-center justify-center px-6 h-12 text-zinc-700 bg-white border border-gray hover:bg-amber-600 dark:bg-white dark:border-gray dark:hover:text-white"><NuxtLink to="/tenagakependidikan2">2</NuxtLink></a>
                     </li>
                     <li>
                         <a href="#" class="flex items-center justify-center px-6 h-12 text-zinc-700 bg-white border border-gray rounded-e-lg hover:bg-amber-600 dark:bg-white dark:border-gray dark:hover:text-white">Next</a>

@@ -15,7 +15,7 @@
         <!-- header end -->
 
     <!-- berita start -->
-    <section class="ml-28 px-16 mt-10">
+    <section class="ml-28 px-16 my-10">
       <div>
         <h1 class="text-black text-3xl font-bold pb-2">BERITA</h1>
         <img src="../assets/image/line.png" class="w-56 h-1">
@@ -39,7 +39,6 @@
           </div>
         </div>
       </div>
-      <p class="text-blue text-sm text-center pt-20 pb-20 cursor-pointer">Lihat berita nasional yang lain>></p>
     </section>
     <!-- berita end -->
     </main>
