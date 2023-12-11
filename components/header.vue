@@ -65,6 +65,10 @@
                 <a href="#" class="px-5 hover:text-amber-600 group-hover:text">Kemahasiswaan</a>
                 <div class="text-left absolute hidden bg-white text-black/50 group-hover:block w-max px-5 py-2 rounded shadow-lg fixed" style="background-color: white">
                     <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'asrama' }">UPT Asrama (RAMTEK)</NuxtLink></p>
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'pengembangankarakter' }">Pengembangan Karakter Mahasiswa</NuxtLink></p>
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'pengembanganprestasi' }">Peningkatan Prestasi Mahasiswa</NuxtLink></p>
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'inbound' }">Mahasiswa Inbound dan Outbound</NuxtLink></p>
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'alumni' }">Alumni</NuxtLink></p>
                     <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'aturankemahasiswaan' }">Aturan Kemahasiswaan</NuxtLink></p>
                     <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'pengumuman' }">Pengumuman</NuxtLink></p>
                 </div>
@@ -93,8 +97,10 @@
                     <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'profilgpm' }">Profil GPM-PR</NuxtLink></p>
                     <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'dokumenmutu' }">Dokumen Mutu</NuxtLink></p>
                     <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'auditmutu' }">Audit Mutu Akademik Internal</NuxtLink></p>
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'lamteknik' }">LAM Teknik</NuxtLink></p>
                     <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'surveikepuasanpengguna' }">Survei Kepuasan Pengguna</NuxtLink></p>
                     <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'surveimahasiswa' }">Survei Kepuasan Layanan Mahasiswa</NuxtLink></p>
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'galeri' }">Galeri</NuxtLink></p>
                 </div>
             </div>
             <p class="text-2xl">|</p>
@@ -112,6 +118,8 @@
                 <a href="#" class="px-5 hover:text-amber-600 group-hover:text">Dharma Wanita</a>
                 <div class="text-left absolute hidden bg-white text-black/50 group-hover:block w-max px-5 py-2 rounded shadow-lg fixed" style="background-color: white">
                     <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'halamanutamadharmawanita' }">Halaman Utama Dharma Wanita</NuxtLink></p>
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'strukturorganisasidharmawanita' }">Struktur Organisasi Dharma Wanita</NuxtLink></p>
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'kegiatandharmawanita' }">Kegiatan Dharma Wanita</NuxtLink></p>
                 </div>
             </div>
           </li>
