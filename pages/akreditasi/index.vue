@@ -14,14 +14,13 @@
         </section>
         <!-- header end -->
 
-        <section class="my-10 py-8">
+        <section class="my-10 py-8 mx-20">
             <div id="akreditasi">
-                <div v-for="item in akreditasiData" :key="item.id" class="ml-28">
+                <div v-for="item in akreditasiData" :key="item.id">
                     <h1 class="text-black text-3xl font-bold pb-2" v-html="item.judul"></h1>
                     <img src="../assets/image/Rectangle19.png">
 
-                    <div class="flex items-center justify-center pt-20">
-                        <img :src="getImageUrl(item.gambar)" :alt="`akreditasi ${item.id}`" class="h-[600] w-[1200px] mb-20" />
+                    <div class="flex items-center justify-center py-20 mx-20 px-20" v-html="item.isi">
                     </div>
                 </div>
                 <div class="mb-10 ml-28">

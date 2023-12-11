@@ -15,7 +15,7 @@
         <!-- header end -->
 
         <section class="py-8 my-10 ml-28">
-            <div class=" pr-[155px] text-justify leading-relaxed">
+            <div class="text-lg pr-[155px] text-justify leading-relaxed">
                 <p class="mb-5"><span class="font-extrabold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jurnal COT</span> merupakan media publikasi ilmiah untuk hasil-hasil inovasi terkini dalam bidang kajian dan rekayasa ilmu pengetahuan dan teknologi keteknikan. Jurnal ini diterbitkan oleh Divisi Publikasi Ilmiah, Center of Technology, Fakultas Teknik Universitas Hasanuddin.</p>
                 <p class="mb-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jurnal CoT terdiri dari Jurnal Penelitian Enjiniring (JPE), The EPI International Journal of Engineering (EPIIJE), Jurnal Rekayasa Transportasi, Lowland Technology International, dan Jurnal TEPAT (Pengabdian Kepada Masyarakat).</p>
                 <p class="mb-5 ">OJS Jurnal Penelitian: <span class="font-semibold text-sky-700 hover:text-navy"><a href="https://cot.unhas.ac.id/journals/"> http://cot.unhas.ac.id/journals/</a></span></p>

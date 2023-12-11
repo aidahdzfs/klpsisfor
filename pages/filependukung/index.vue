@@ -21,7 +21,7 @@
                     <h1 class="text-black text-3xl font-bold pb-2">SOP KESEHATAN KERJA FT-UH</h1>
                     <img src="../assets/image/Rectangle18.png" class="ml-100 w-72 h-1">
                 </div>
-                <ol class="list-outside list-decimal ml-10 text-left text-sm space-y-2 pr-[155px] my-8">
+                <ol class="list-outside list-decimal ml-10 text-left text-lg space-y-2 pr-[155px] my-8">
                     <li class="text-sky-700 hover:text-navy"><a href="https://eng.unhas.ac.id/fakultas/download/sop_k3/1_SOP_Identifikasi_Bahaya_Penilaian_dan_Pengendalian_risiko.docx">SOP Identifikasi Bahaya dan Pengendalian Resiko</a></li>
                     <li class="text-sky-700 hover:text-navy"><a href="https://eng.unhas.ac.id/fakultas/download/sop_k3/2_SOP_Inspeksi_K3.docx">SOP Inspeksi K3</a></li>
                     <li class="text-sky-700 hover:text-navy"><a href="https://eng.unhas.ac.id/fakultas/download/sop_k3/3_SOP_APD.docx">SOP APD</a></li>
@@ -60,7 +60,7 @@
                     <h1 class="text-black text-3xl font-bold pb-2">FORM K3</h1>
                     <img src="../assets/image/Rectangle18.png" class="ml-100 w-72 h-1">
                 </div>
-                <ol class="list-outside list-decimal ml-10 text-left text-sm space-y-2 pr-[155px] my-8">
+                <ol class="list-outside list-decimal ml-10 text-left text-lg space-y-2 pr-[155px] my-8">
                     <li class="text-sky-700 hover:text-navy"><a href="https://eng.unhas.ac.id/fakultas/download/sop_k3/30_Form_Permohonan_Pengukuran_Ligkungan_Fisik.doc">Form Permohonan Pengukuran Lingkungan Fisik</a></li>
                     <li class="text-sky-700 hover:text-navy"><a href="https://eng.unhas.ac.id/fakultas/download/sop_k3/31_Form_Permohonan_Pekerjaan_ListrikListrik.doc">Form Permohonan Pekerjaan Listrik</a></li>
                     <li class="text-sky-700 hover:text-navy"><a href="https://eng.unhas.ac.id/fakultas/download/sop_k3/32_Form_Permohonan_Penggunaan_Ruangan.doc">Form Permohonan Penggunaan Ruangan</a></li>

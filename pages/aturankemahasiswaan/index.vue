@@ -20,7 +20,7 @@
             </div>
             <div class="pr-[155px] text-justify leading-relaxed">
                 <h3 class="font-bold mb-2"></h3>
-                <ul class="list-outside list-decimal ml-10 text-left space-y-2 pr-[155px] text-sm">
+                <ul class="list-outside list-decimal ml-10 text-left space-y-2 pr-[155px] text-lg">
                     <li class="text-sky-700 hover:text-navy"><a href="https://drive.google.com/file/d/10rdBjpZPoNmlVHDmRW-cKVpHjEcr7N8b/view?usp=sharing">Pengaturan Rektor</a></li>
                     <li class="text-sky-700 hover:text-navy"><a href="https://drive.google.com/file/d/1JWDirmLACE0KUo9YLMSpi_plU0pA62Yd/view?usp=sharing">Panduan Pelaksanaan Kegiatan Tri Dharma Unhas Selama Masa Pandemi Covid-19</a></li>
                     <li class="text-sky-700 hover:text-navy"><a href="https://drive.google.com/file/d/1tZfVdesgP0IhlLyUt7WAXIQkt-q9vrJG/view?usp=sharing">PP No 53 2015 Statuta Unhas</a></li>

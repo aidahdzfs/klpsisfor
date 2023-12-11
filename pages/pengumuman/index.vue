@@ -14,7 +14,7 @@
         </section>
         <!-- header end -->
 
-        <section class="my-10 ml-28 py-8">
+        <section class="my-10 text-lg ml-28 py-8">
             <div class=" my-5 pr-[155px] text-justify leading-relaxed">
                 <h1 class="text-black font-bold pb-5">PERATURAN REKTOR UNIVERSITAS HASANUDDIN <br> NOMOR: 25000/UN4.1/OT,10/2016</h1>
                 <h1 class="text-black font-bold">ORGANISASI DAN TATA KERJA FAKULTAS DAN SEKOLAH UNIVERSITAS HASANUDDIN</h1>

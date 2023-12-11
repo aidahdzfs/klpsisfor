@@ -14,7 +14,7 @@
         </section>
         <!-- header end -->
 
-        <section class="my-10 ml-28 py-8 pr-[155px]">
+        <section class="my-10 text-lg ml-28 py-8 pr-[155px]">
             <div class=" my-5 text-justify leading-relaxed">
                 <h1 class="text-black text-3xl font-bold pb-2">PROFIL GPM-PR</h1>
                 <img src="../assets/image/Rectangle19.png" class="w-72 h-1">
@@ -26,7 +26,7 @@
                     mengendalikan dan mengembangkan sistem penjaminan mutu akademik fakultas dan program studi yang sejalan dengan sistem penjaminan mutu internal 
                     Unhas, dan bertanggungjawab atas peningkatan mutu secara berencana dan berkelanjutan. Dalam menjalankan Tupoksinya, GPM dibantu pula oleh Unit 
                     Penjaminan Mutu di tingkat Prodi/Profesi.<br><br>Dalam melaksanakan tugasnya, GPM-PR mempunyai fungsi :</p>
-                <ul class="list-outside list-decimal ml-10 text-left space-y-3 text-sm mt-4">
+                <ul class="list-outside list-decimal ml-10 text-left space-y-3 mt-4">
                     <li>Perumusan kebijakan mutu akademik yang sejalan dengan kebijakan mutu akademik Unhas, dalam rangka pencapaian target kinerja akademik fakultas dan program studi</li>
                     <li>Perumusan dan pengembangan standar mutu akademik yang sejalan dengan standar mutu Unhas</li>
                     <li>Pelaksanaan standar mutu akademik dan manajemen yang sejalan dengan standar mutu Unhas</li>
@@ -51,7 +51,7 @@
             </div>
             <div class="text-justify leading-relaxed">
                 <h3 class="font-bold mt-8 mb-2">REFERENSI</h3>
-                <ul class="list-outside list-decimal text-justify ml-10 space-y-2 text-sm mt-4">
+                <ul class="list-outside list-decimal text-justify ml-10 space-y-2 mt-4">
                     <li>PERATURAN SENAT AKADEMIK UNIVERSITAS HASANUDDIN NOMOR:4867/UN4.2/IT.03/2017 TENTANG KEBIJAKAN SISTEM PENJAMINAN MUTU INTERNAL UNIVERSITAS HASANUDDIN</li>
                     <li>PERATURAN REKTOR UNIVERSITAS HASANUDDIN NOMOR 8/UN4.1/2018 TENTANG ORGANISASI DAN TATA KERJA PENGELOLA UNIVERSITAS HASANUDDIN</li>
                     <li>PERATURAN REKTOR UNIVERSITAS HASANUDDIN NOMOR 10/UN4.1/2018 TENTANG ORGANISASI DAN TATA KERJA LEMBAGA DAN SATUAN UNIVERSITAS HASANUDDIN</li>

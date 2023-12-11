@@ -20,6 +20,21 @@
                 <img src="../assets/image/Rectangle19.png" class="ml-100">
             </div>
 
+            <div id="manajemen">
+                <div v-for="item in manajemenData" :key="item.id">
+                    <div>
+                        <p v-html="item.gambar" class=""></p>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!-- <div class="ml-28">
+                <h1 class="text-black text-3xl font-bold pb-2">PIMPINAN FAKULTAS</h1>
+                <img src="../assets/image/Rectangle19.png" class="ml-100">
+            </div>
+
             <div class="text-center">
                 <img src="../assets/image/dekan.png" alt="dekan" class="mt-10 mb-4 h-48 w-44 relative m-auto">
                 <p class="font-bold text-sm">Prof. Dr. Eng. Ir. Muhammad Isran Ramli, S.T., M.T., IPM., ASEAN Eng.</p>
@@ -41,7 +56,30 @@
                     <p class="font-bold text-sm">Dr. Ir. Rustan Tarakka, M.T.</p>
                     <p class="text-sm">Wakil Dekan Bidang Kemitraan, Riset dan Inovasi</p>
                 </div>
-            </div>
+            </div> -->
         </section>
     </main>
 </template>
+
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/manajemen"
+    const manajemenData = ref('');
+
+    async function getManajemen() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        manajemenData.value = data.data
+    }
+
+    onMounted(() => {
+        getManajemen();
+    })
+
+    const getImageUrl = (imageName) => {
+        return `http://localhost:8055/assets/${imageName}`
+    }
+</script>

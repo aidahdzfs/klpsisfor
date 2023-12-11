@@ -19,7 +19,7 @@
                     <h1 class="text-black text-3xl font-bold pb-2">DOKUMEN MUTU</h1>
                     <img src="../assets/image/Rectangle18.png" class="ml-100 w-72 h-1">
                 </div>
-                <ul class="list-outside list-disc text-justify ml-10 text-left space-y-2 text-sm mb-10 mt-4">
+                <ul class="list-outside list-disc text-justify ml-10 space-y-2 mb-10 mt-4">
                     <li class="font-bold text-lg mt-10">KEBIJAKAN SPMI</li>
                     <div class="flex space-x-10 items-center">
                         <img src="../assets/image/spmi.png" alt="buku" class="max-w-[10rem]">
@@ -41,7 +41,7 @@
                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Formulir SPMI berisi formulir-formulir dan template yang dibutuhkan dari setiap standar mutu sebagai pedoman langkah-langkah pelaksanaan tugas dan pendokumentasian pelaksanaan tugas/kegiatan</p>
                     </div>
                 </ul>
-                <p class="font-black text-sm text-center">Standar Mutu Unhas dan Indikatornya dapat di unduh di link berikut : <span><a href="https://docs.google.com/spreadsheets/d/1rtyW3caP9OKibK4H67g5VjoUmvQhoGXl/edit?rtpof=true&sd=true#gid=2063511492" class="text-sky-700 font-semibold hover:text-navy">STANDAR UNHAS</a></span></p>
+                <p class="font-black text-center">Standar Mutu Unhas dan Indikatornya dapat di unduh di link berikut : <span><a href="https://docs.google.com/spreadsheets/d/1rtyW3caP9OKibK4H67g5VjoUmvQhoGXl/edit?rtpof=true&sd=true#gid=2063511492" class="text-sky-700 font-semibold hover:text-navy">STANDAR UNHAS</a></span></p>
             </div>
         </section>
     </main>

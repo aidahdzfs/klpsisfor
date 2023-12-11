@@ -20,7 +20,7 @@
                     <h1 class="text-black text-3xl font-bold pb-2">STRUKTUR ORGANISASI K3</h1>
                     <img src="../assets/image/Rectangle19.png">
                 </div>
-                <ul class="list-outside list-decimal ml-10 text-left space-y-3 text-sm mt-4">
+                <ul class="list-outside list-decimal ml-10 text-left space-y-3 text-lg mt-4">
                     <li class="font-semibold">Penanggung Jawab/ Ketua : <br>
                         <span class="font-medium">Prof. Dr. Eng. Ir. Muhammad Isran Ramli, S.T., M.T., IPM., ASEAN.Eng</span>
                     </li>
@@ -35,9 +35,9 @@
             <div class="mb-16">
                 <div class="mb-5">
                     <h1 class="text-black text-3xl font-bold pb-2">BIDANG - BIDANG</h1>
-                    <img src="../assets/image/Rectangle19.png">
+                    <img src="../assets/image/Rectangle19.png" class="w-[20rem] h-1">
                 </div>
-                <ul class="list-outside list-decimal ml-10 text-left space-y-3 text-sm mt-4">
+                <ul class="list-outside list-decimal ml-10 text-left space-y-3 text-lg mt-4">
                     <li class="font-semibold">Keselamatan, Tanggap Darurat & Investigasi Kecelakaan <br>
                         <span class="font-medium">Ketua: Dr.Eng. Ilham Alimuddin, M.GIS</span>
                     </li>
@@ -52,9 +52,9 @@
             <div>
                 <div class="mb-5">
                     <h1 class="text-black text-3xl font-bold pb-2">UNIT - UNIT</h1>
-                    <img src="../assets/image/Rectangle19.png">
+                    <img src="../assets/image/Rectangle19.png" class="w-60 h-1">
                 </div>
-                <ul class="list-outside list-decimal ml-10 text-left space-y-3 text-sm mt-4">
+                <ul class="list-outside list-decimal ml-10 text-left space-y-3 text-lg mt-4">
                     <li class="font-semibold">Departemen Teknik Sipil <br>
                         <span class="font-medium">       Ketua: Prof. Dr. Muh. Wihardi Tjaronge, S.T., M.Eng</span>
                     </li>

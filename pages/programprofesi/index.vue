@@ -19,7 +19,7 @@
                 <h1 class=" text-black text-3xl font-bold pb-2">PROGRAM PROFESI</h1>
                 <img src="../assets/image/Rectangle19.png" class="ml-100">
             </div>
-            <div class="w-[100vw] text-black text-base font-medium text-justify justify-center ml-28 mt-10 pr-56">
+            <div class="w-[100vw] text-black text-lg font-medium text-justify justify-center ml-28 mt-10 pr-56">
                 Program Profesi di Fakultas Teknik Unhas: <br/>
                 <a href="https://insinyur.unhas.ac.id/" class=" text-navy">1. Profesi Insinyur</a>
 

@@ -19,9 +19,33 @@
                 <h1 class="text-black text-3xl font-bold pb-2">GURU BESAR</h1>
                 <img src="../assets/image/Rectangle19.png" class="w-72 h-1">
             </div>
-            <div class="flex items-center justify-center pt-10">
+
+            <div v-for="item in gurubesarData" :key="item.id">
+
+                    <div class="flex items-center justify-center py-20 mx-20 px-20" v-html="item.isi">
+                    </div>
+                </div>
+            <!-- <div class="flex items-center justify-center pt-10">
                 <img src="../assets/image/gurubesar.png" alt="gurubesar" class="w-[1275px] h-[3157px]">
-            </div>
+            </div> -->
         </section>
     </main>
 </template>
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/gurubesar"
+    const gurubesarData = ref('');
+
+    async function getGurubesar() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        gurubesarData.value = data.data
+    }
+
+    onMounted(() => {
+        getGurubesar();
+    })
+</script>

@@ -15,7 +15,7 @@
         <!-- header end -->
 
         <section class="py-8 my-10 ml-28">
-            <div>
+            <div class="text-lg">
                 <h1 class="text-extrabold text-2xl font-black pb-10">Center of Technology (CoT)</h1>
                 <p class="pr-[155px] text-justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COT adalah kantor pengelola fakultas yang terletak di Kampus Baru UNHAS Gowa disebut Gedung Center of Technology. Sebagai institusi akademik dengan tiga pilar pendidikan tinggi, manajemen saat ini terutama difokuskan pada pemenuhan kebutuhan mahasiswa dan staf akademik untuk melakukan kegiatan pembelajaran dan penelitian.</p>
                 <p class="font-semibold mt-10">Untuk Informasi lebih lanjut<span><a href="https://cot.unhas.ac.id/" class="text-sky-700 hover:text-navy">&nbsp;klik disini</a></span></p>

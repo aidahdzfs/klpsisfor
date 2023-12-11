@@ -14,7 +14,7 @@
         <!-- header end -->
 
         <section class="my-10 py-8 mr-[155px] ml-28">
-            <div>
+            <div class="text-lg">
                 <div>
                     <h1 class="text-black text-3xl font-bold pb-2">KEPUASAN PENGGUNA LAYANAN AKADEMIK TAHUN 2022</h1>
                     <img src="../assets/image/Rectangle19.png">
@@ -22,7 +22,7 @@
                 <div class="text-justify leading-relaxed mt-10">
                 <p class="mt-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survei kepuasan layanan akademik kepada pengguna layanan (Dosen dan Mahasiswa) dilakukan untuk melihat ketercapaian mutu layanan akademik yang prima dan berorientasi pada pelanggan. Pelayanan akademik yang dilaksanakan dengan prima akan menjaga kelancaran kegiatan akademik dan terpenuhinya kebutuhan pengguna layanan.</p>
                 <h3 class="font-bold mt-10">DASAR HUKUM PROSES PENJAMINAN MUTU KEPUASAN PENGGUNA LAYANAN AKADEMIK</h3>
-                <ul class="leading-relaxed list-outside list-decimal text-left space-y-3 text-sm ml-4 mt-4">
+                <ul class="leading-relaxed list-outside list-decimal text-left space-y-3 ml-4 mt-4">
                     <li>Keputusan Menteri Pendadayagunaan Aparatur Negara Nomor 63/IGP/IvI.PAN.7/2003 tentang Pedoman Umum Penyelenggaraan Pelayanan Publik</li>
                     <li>Keputusan Menteri Pemberdayaan Aparatur Negara Nomor KEP/25IM.PAN/2/2A04, yang memuat Pedoman Umum Penyusunan Indeks Kepuasan Masyarakat Unit Pelayanan Instansi Pemerintahan. Dalam pedoman ini dinyatakan bahwa untuk mengetahui kinerja pelayanan aparatur pemerintah kepada masyarakat, perlu dilakukan penilaian atas pendapat masyarakat terhadap pelayanan, melalui penyusunan indeks kepuasan masyarakat.</li>
                     <li>Dalam rangka melaksanakan Undang-Undang RI No. 25 Tahun 2049 tentang Pelayanan Publik yakni kegiatan atau rangkaian kegiatan dalam rangka pemenuhan kebutuhan pelayanan sesuai dengan peraturan perundang-undangan bagi setiap warga negara dan penduduk atas barang, jasa danlatau pelayanan administratif yang disediakan oleh penyelenggara pelayanan publik</li>
@@ -34,26 +34,26 @@
                     <li>Peraturan Senat Akademik Universitas Hasanuddin Nomor 4867/UN4/IT.03/2017 tentang Kebijakan Penjaminan Sistem Penjaminan Mutu Internal</li>
                 </ul>
                 <h3 class="font-bold mt-10">SIKLUS PPEPP MUTU KEPUASAN PENGGUNA LAYANAN AKADEMIK</h3>
-                <ul class="list-outside list-decimal text-left space-y-3 text-sm ml-4 mt-4">
+                <ul class="list-outside list-decimal text-left space-y-3 ml-4 mt-4">
                     <li>PERENCANAAN</li>
-                    <ul class="list-outside list-disc text-left space-y-3 text-sm ml-4 mt-4">
+                    <ul class="list-outside list-disc text-left space-y-3 ml-4 mt-4">
                         <li>Dekan menugaskan Kepala Bagian Tata Usaha untuk melakukan perencanaan Pelayanan Akademik kepada pengguna layanan akademik yaitu Dosen dan Mahasiswa</li>
                         <li>Gugus Pernjaminan mutu melakukan perencanaan terdadap pemantauan pelaksanaan pelayanan akademik yang dilakukan oleh tenaga kependidikan kepada dosen dan mahasiswa</li>
                     </ul>
                     <li>PELAKSANAAN</li>
-                    <ul class="list-outside list-disc text-left space-y-3 text-sm ml-4 mt-4">
+                    <ul class="list-outside list-disc text-left space-y-3 ml-4 mt-4">
                         <li>Kepala Bagian Tata Usaha mengkoordinir kegiatan pelayanan akademik oleh tenaga kependidikan kepada dosen dan mahasiswa</li>
                         <li>Tenaga kependidikan memberikan pelayanan akademik yang prima kepada dosen dan mahasiswa</li>
                     </ul>
                     <li>EVALUASI</li>
-                    <ul class="list-outside list-disc text-left space-y-3 text-sm ml-4 mt-4">
+                    <ul class="list-outside list-disc text-left space-y-3 ml-4 mt-4">
                         <li>Penjaminan Mutu Prodi memonitoring pemberian pelayanan akademik oleh tenaga kependidikan kepada dosen dan mahasiswa.</li>
                         <li>Penjaminan Mutu Prodi menyampaikan kepada Penjaminan Mutu Fakultas hasil monitoring pelaksanaan pelayanan akademik oleh tenaga kependidikan</li>
                         <li>Penjaminan Mutu Prodi menyampaikan kepada Gugus Penjaminan Mutu Fakultas hasil evaluasi pelaksanaan pelayanan akademik oleh tenaga kependidikan.</li>
                         <li>Penjaminan Mutu Fakultas menyampaikan kepada Dekan hasil evaluasi pelaksanaan pelayanan akademik oleh tenaga kependidikan.</li>
                     </ul>
                     <li>PENGENDALIAN</li>
-                    <ul class="list-outside list-disc text-left space-y-3 text-sm ml-4 mt-4">
+                    <ul class="list-outside list-disc text-left space-y-3 ml-4 mt-4">
                         <li>Penjaminan Mutu Prodi menyampaikan hasil monitoring pelaksanaan pelayanan akademik kepada Ketua Prodi dan Ketua Departemen.</li>
                         <li>Ketua Prodi melakukan pengendalian bilamana terdapat ketidaksesuaian antara penetapan dengan pelaksanaan pelayanan akademik berdasarkan hasil monitoring UPM terkait pelaksanaan pelayanan akademik yang tidak sesuai.</li>
                         <li>Penjaminan Mutu Prodi menyampaikan hasil monitoring pelaksanaan pelayanan akademik kepada Gugus Penjaminan Mutu.</li>
@@ -61,7 +61,7 @@
                         <li>Dekan melakukan pengendalian bilamana terdapat ketidaksesuaian antara penetapan dengan pelaksanaan pelayanan akademik berdasarkan hasil monitoring GPM terkait pelaksanaan pelayanan akademik yang tidak sesuai.</li>
                     </ul>
                     <li>PENINGKATAN</li>
-                    <ul class="list-outside list-disc text-left space-y-3 text-sm ml-4 mt-4">
+                    <ul class="list-outside list-disc text-left space-y-3 ml-4 mt-4">
                         <li>Kepala Bagian Tata Usaha mengusulkan rumusan hasil peningkatan pelaksanaan pelayanan akademik yang baru (revisi dari sebelumnya) kepada Dekan.</li>
                         <li>Dekan menindaklanjuti rumusan yang diusulkan dalam bentuk perencanaan program/kegiatan dalam peningkatan pelayanan kepada pengguna layanan akademik.</li>
                     </ul>

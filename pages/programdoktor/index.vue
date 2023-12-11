@@ -20,11 +20,7 @@
                 <img src="../assets/image/Rectangle19.png" class="ml-100">
             </div>
             <div v-for="item in doktorData" :key="item.id">
-                <p class="font-medium text-justify px-28 pt-10" style="font-size: 20px;" v-html="item.isi"></p>
-                <!-- <ol type="1">
-                    <li>1. Program Doktor berbasis kuliah dan riset, dan</li>
-                    <li>2. Program Doktor berbasis riset.</li>
-                </ol>  -->
+                <p class="font-medium text-justify px-28 pt-10 text-lg" v-html="item.isi"></p>
             </div>
 
         </section>

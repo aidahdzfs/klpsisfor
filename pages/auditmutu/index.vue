@@ -13,7 +13,7 @@
         </section>
         <!-- header end -->
 
-        <section class="my-10 py-8 mr-[155px] ml-28">
+        <section class="my-10 text-lg py-8 mr-[155px] ml-28">
             <div>
                 <div>
                     <h1 class="text-black text-3xl font-bold pb-2">AUDIT MUTU AKADEMIK INTERNAL (AMAI) FT-UH</h1>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="text-justify leading-relaxed mt-10">
                     <p class="mt-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Audit Mutu Akademik Internal (AMAI) Fakultas Teknik Unhas adalah audit penjaminan dan konsultasi yang independen dan objektif terhadap kegiatan operasional akademik atau proses akademik. Kegiatan ini bertujuan untuk :</p>
-                    <ul class="list-outside list-decimal text-left space-y-3 text-sm ml-4 mt-4">
+                    <ul class="list-outside list-decimal text-left space-y-3 ml-4 mt-4">
                         <li>Memberikan nilai tambah dan memperbaiki kegiatan operasional akademik atau proses akademik Fakultas Teknik Unhas.</li>
                         <li>Mengetahui bahwa pelaksanaan standar mutu akademik telah tepat dan efektif, serta terdapat upaya-upaya peningkatan standar mutu akademik tersebut.</li>
                         <li>Mengidentifikasi lingkup perbaikan dan mengembangkannya secara profesional dan berkelanjutan.</li>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="text-justify leading-relaxed mt-10">
                     <p class="mt-4">Sistem mutu adalah sistem yang mencakup :</p>
-                    <ul class="list-outside list-decimal text-left space-y-3 text-sm ml-4 mt-4">
+                    <ul class="list-outside list-decimal text-left space-y-3 ml-4 mt-4">
                         <li>Struktur organisasi</li>
                         <li>Tanggung jawab</li>
                         <li>Prosedur</li>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="text-justify mt-10">
                     <p class="mt-4">Standar mutu adalah standar yang harus diacu, dipenuhi, atau dipatuhi dalam melaksanakan suatu kegiatan. Contoh Standar Mutu antara lain:</p>
-                    <ul class="list-outside list-decimal text-left space-y-3 text-sm ml-4 mt-4">
+                    <ul class="list-outside list-decimal text-left space-y-3 ml-4 mt-4">
                        <li>Standar Sistem Manajemen Mutu ISO 9000</li>
                        <li>Standar Nasional Indonesia (SNI)</li>
                        <li>ISO 9001:2000, Persyaratan Sistem Manajemen Mutu. Berisi persyaratan standar yang digunakan untuk mengakses kemampuan organisasi dalam memenuhi persyaratan pelanggan dan peraturan yang sesuai</li>
@@ -61,7 +61,7 @@
                        <li>ISO 10013:1995, Pedoman untuk Mengembangkan Manual Mutu. Memberikan pedoman dalam mengembangkan dan memelihara manual mutu.</li>
                     </ul>
                     <p class="mt-10">Standar mutu yang digunakan oleh Unit Pelaksana Akademik Fakultas Teknik Unhas dalam menjalankan kegiatan akademik/ proses pendidikan antara lain:</p>
-                    <ul class="list-outside list-decimal text-left space-y-3 text-sm ml-4 mt-4">
+                    <ul class="list-outside list-decimal text-left space-y-3 ml-4 mt-4">
                        <li>Kebijakan Akademik Fakultas Teknik Unhas</li>
                        <li>Standar Akademik Fakultas Teknik Unhas</li>
                        <li>Peraturan Akademik Unhas</li>
@@ -100,10 +100,10 @@
                     <img src="../assets/image/Rectangle19.png" class="w-96 h-1">
                 </div>
                 <div class="text-justify leading-relaxed mt-10">
-                    <ul class="list-outside list-decimal text-left space-y-3 text-sm ml-4 mt-4">
+                    <ul class="list-outside list-decimal text-left space-y-3 ml-4 mt-4">
                         <li>Suatu metode pemeriksaan yang independen dan objektif terhadap ranah kegiatan akademik.</li>
                         <li>Didasarkan atas kerangka pertanyaan yang berasal dari masalah mendasar sebagai berikut :</li>
-                        <ul class="list-outside list-disc text-left space-y-3 text-sm ml-4 mt-4">
+                        <ul class="list-outside list-disc text-left space-y-3 ml-4 mt-4">
                             <li>Apa yang anda kerjakan?</li>
                             <li>Mengapa anda mengerjakan hal tersebut?</li>
                             <li>Apakah yang anda kerjakan telah memenuhi harapan?</li>
@@ -130,20 +130,20 @@
                     <img src="../assets/image/Rectangle19.png" class="w-72 h-1">
                 </div>
                 <div class="text-justify leading-relaxed mt-10">
-                    <ul class="list-outside list-decimal text-left space-y-3 text-sm ml-4 mt-4">
+                    <ul class="list-outside list-decimal text-left space-y-3 ml-4 mt-4">
                         <li>Audit proses akademik terdiri atas :</li>
-                        <ul class="list-outside list-disc text-left space-y-3 text-sm ml-4 mt-4">
+                        <ul class="list-outside list-disc text-left space-y-3 ml-4 mt-4">
                             <li>Audit laboratorium</li>
                             <li>Audit perpustakaan</li>
                             <li>Audit unit penunjang akademik</li>
                         </ul>
                         <li>Audit program studi/mata kuliah/program pembelajaran:</li>
-                        <ul class="list-outside list-disc text-left space-y-3 text-sm ml-4 mt-4">
+                        <ul class="list-outside list-disc text-left space-y-3 ml-4 mt-4">
                             <li>Audit pelaksanaan program pembelajaran;</li>
                             <li>Audit materi pembelajaran.</li>
                         </ul>
                         <li>Audit sistem penjaminan mutu, prosedur dan manajemen mutu :</li>
-                        <ul class="list-outside list-disc text-left space-y-3 text-sm ml-4 mt-4">
+                        <ul class="list-outside list-disc text-left space-y-3 ml-4 mt-4">
                             <li>Ketepatan informasi pada leaflet, buku panduan, website, dan lain-lain</li>
                             <li>Kebijakan, informasi dan prosedur penerimaan mahasiswa</li>
                             <li>Pembukaan dan evaluasi program studi</li>
@@ -174,14 +174,14 @@
                 </div>
                 <div>
                     <p class="mt-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pelayanan Konsultasi adalah suatu pemberian saran yang dilakukan atas permintaan khusus klien yang sifat dan ruang lingkupnya ditentukan oleh klien. Kegiatan konsultasi melibatkan dua pihak, yaitu :</p>
-                    <ul class="list-outside list-decimal text-left space-y-3 text-sm ml-4 mt-4">
+                    <ul class="list-outside list-decimal text-left space-y-3 ml-4 mt-4">
                         <li>Kelompok yang memberikan saran (auditor)</li>
                         <li>Kelompok yang membutuhkan atau menerima saran (klien).</li>
                     </ul>
                 </div>
                 <div>
                     <p class="mt-7">Saat melaksanakan kegiatan konsultasi, auditor harus menjaga objektivitas dan tidak mengambil alih tanggungjawab manajemen.</p>
-                    <ul class="list-outside list-decimal text-left space-y-3 text-sm ml-4 mt-4">
+                    <ul class="list-outside list-decimal text-left space-y-3 ml-4 mt-4">
                         <li>Pihak yang terlibat di dalam Kegiatan AMAI</li>
                         <li>Teraudit adalah orang atau kelompok yang secara langsung terlibat di dalam proses kegiatan akademik, sistem akademik atau hal lain yang berkaitan dengan kegiatan akademik yang diaudit terhadap standar mutu yang ditetapkan</li>
                         <li>Auditor adalah orang atau kelompok yang mempunyai kualifikasi untuk melakukan audit mutu akademik.</li>

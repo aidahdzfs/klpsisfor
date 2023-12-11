@@ -15,22 +15,22 @@
 
         <section class="my-10 py-8">
             <!-- Visi -->
-            <div>
+            <div class="mt-10">
                 <div class="ml-28">
                     <h1 class="text-black text-3xl font-bold pb-2">VISI</h1>
                     <img src="../assets/image/line.png" class="w-48 h-1">
                 </div>
-                <div class="w-[100vw] text-black text-base font-medium text-justify justify-center ml-28 mt-6 mb-10 pr-56">Menjadi institusi unggulan dalam bidang rekayasa untuk keberlanjutan global dengan semangat budaya maritim.</div>
+                <div class="w-[100vw] text-black text-lg font-medium text-justify justify-center ml-28 mt-6 mb-10 pr-56">Menjadi institusi unggulan dalam bidang rekayasa untuk keberlanjutan global dengan semangat budaya maritim.</div>
             </div>
             <!-- Visi end -->
             
             <!-- Misi -->
-            <div>
+            <div class="mt-20">
                 <div class="ml-28">
                     <h1 class="text-black text-3xl font-bold pb-2">MISI</h1>
                     <img src="../assets/image/Rectangle18.png" class="w-48 h-1">
                 </div>
-                <div class="w-[100vw] text-black text-base font-medium text-justify justify-center ml-28 mt-6 mb-10 pr-56">
+                <div class="w-[100vw] text-black text-lg font-medium text-justify justify-center ml-28 mt-6 mb-10 pr-56">
                     <ul class="list-outside list-disc ml-4 mb-4">
                         <li>Mengembangkan pendidikan, penelitian, dan pengabdian masyarakat pada bidang rekayasa dengan semangat budaya maritim.</li>
                         <li>Menghasilkan sarjana teknik yang berpengetahuan luas, menguasai teknologi maju dan berkemampuan inovasi.</li>
@@ -42,12 +42,12 @@
             <!-- Misi end -->
 
             <!-- Sasaran -->
-            <div>
+            <div class="mt-20">
                 <div class="ml-28">
                     <h1 class="text-black text-3xl font-bold pb-2">SASARAN</h1>
                 <img src="../assets/image/Rectangle18.png" class="w-48 h-1">
                 </div>
-                <div class="w-[100vw] text-black text-base font-medium text-justify justify-center ml-28 mt-6 mb-10 pr-56">
+                <div class="w-[100vw] text-black text-lg font-medium text-justify justify-center ml-28 mt-6 mb-10 pr-56">
                     <ul class="list-outside list-disc ml-4 mb-4">
                         <li>Membentuk keseimbangan penelitian – pendidikan; melalui keterpaduan sistem pendidikan yang komprehensif dan kreatif pada strata sarjana, dan percepatan penelitian pada strata pascasarjana melalui pendidikan berbasis laboratorium (Labo-Based Education / LBE).</li>
                         <li>Mengimplementasikan model pembelajaran LBE untuk pendidikan berorientasi penelitian.</li>

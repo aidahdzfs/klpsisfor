@@ -19,10 +19,10 @@
                 <h1 class="text-black text-3xl font-bold pb-2">PROFIL K3 FT-UH</h1>
                 <img src="../assets/image/Rectangle19.png" class="w-80 h-1">
             </div>
-            <div class="my-5 pr-[155px] text-justify leading-relaxed">
+            <div class="my-5 pr-[155px] text-lg text-justify leading-relaxed">
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pimpinan Fakultas Teknik Universitas Hasanuddin berkomitmen melaksanakan dan menerapkan sistem manajemen keselamatan dan kesehatan kerja. Untuk mendukung hal tersebut, Pimpinan Fakultas Teknik Universitas Hasanuddin bertanggungjawab secara keseluruhan untuk mencegah terjadinya kecelakaan kerja, penyakit akibat kerja, dan menjaga lingkungan disekitar area kerja, memberikan fasilitas sarana dan prasarana tempat kerja yang aman, sehat, dan nyaman dengan mengambil langkah sebagai berikut:</p>
             </div>    
-            <ol class="list-outside list-decimal ml-10 text-left space-y-3 pr-[155px] text-sm">
+            <ol class="list-outside list-decimal ml-10 text-left space-y-3 pr-[155px] text-lg">
                 <li>Memastikan bahwa kebijakan dan Tujuan yang terkait dengan keselamatan dan Kesehatan kerja ditetapkan dalam sistem manajemen keselamatan dan kesehatan kerja dan terintegrasi dalam proses bisnis</li>
                 <li>Memastikan sumber daya yang dibutuhkan untuk system manejemen keselamatan dan kesehatan kerja tersedia</li>
                 <li>Menyusun persyaratan dan Standar operasional prosedur dalam menerapkan system keselamatan dan kesehatan kerja</li>

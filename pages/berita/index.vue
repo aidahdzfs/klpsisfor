@@ -15,7 +15,7 @@
         <!-- header end -->
 
     <!-- berita start -->
-    <section class="ml-28 px-16 my-10">
+    <section class="mx-20 px-8 my-10">
       <div>
         <h1 class="text-black text-3xl font-bold pb-2">BERITA</h1>
         <img src="../assets/image/line.png" class="w-56 h-1">

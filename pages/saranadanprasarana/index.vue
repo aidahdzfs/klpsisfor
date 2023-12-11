@@ -23,7 +23,7 @@
                 
                 <div v-for="item in saranaData" :key="item.data" class="pb-10">
                     <div class="my-4">
-                        <h1 v-html="item.isi" class=" text-xl px-28"></h1>
+                        <h1 v-html="item.isi" class=" text-lg px-28"></h1>
                     </div>
                     <div class="px-28 flex space-x-20 items-center justify-center">
                         <img :src="getImageUrl(item.gambar)" :alt="`sarana ${item.id}`" class=" h-[300px] w-[490px] pt-4"/>

@@ -19,8 +19,8 @@
                 <h1 class="text-black text-3xl font-bold pb-2">PROGRAM MAGISTER</h1>
                 <img src="../assets/image/Rectangle19.png" class="ml-100">
             </div>
-            <div v-for="item in magisterData" :key="item.id" class="w-[100vw] text-black text-base font-medium text-justify justify-center ml-28 mt-10 pr-56">
-                <p class="font-medium" style="font-size: 20px;" v-html="item.isi"></p>
+            <div v-for="item in magisterData" :key="item.id" class="w-[100vw] text-black text-lg font-medium text-justify justify-center ml-28 mt-10 pr-56">
+                <p class="font-medium" v-html="item.isi"></p>
             </div>
         </section>
     </main>
