@@ -8,9 +8,9 @@
           <img src="../assets/image/unhas.png" alt="Unhas logo">
         </div>
         <div class="mt-6 mb-6 flex space-x-3 ml-28">
-          <img src="../assets/image/youtube.png" alt="youtube">
-          <img src="../assets/image/instagram.png" alt="ig">
-          <img src="../assets/image/fb.png" alt="fb">
+          <NuxtLink to="https://www.youtube.com/@fakultasteknikunhasofficia6982"><img src="../assets/image/youtube.png" alt="youtube"></NuxtLink>
+          <NuxtLink to="https://www.instagram.com/teknik.unhas/"><img src="../assets/image/instagram.png" alt="ig"></NuxtLink>
+          <NuxtLink to=""><img src="../assets/image/fb.png" alt="fb"></NuxtLink>
         </div>
       </div>
       <div class="">

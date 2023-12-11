@@ -72,19 +72,18 @@
             <p class="text-2xl">|</p>
             <div class="relative group pt-1">
                 <a href="#" class="px-5 hover:text-amber-600 group-hover:text">Riset dan Informasi</a>
-                <div class="absolute hidden bg-white text-white group-hover:block mt-5 w-max p-2 rounded shadow-lg fixed" style="background-color: navy">
-                    <NuxtLink :to="{ name: 'berita' }">Berita</NuxtLink><br>
-                    <NuxtLink :to="{ name: 'berita' }">Sejarah Singkat</NuxtLink><br>
-                    <NuxtLink :to="{ name: 'berita' }">Visi, Misi dan Sasaran</NuxtLink><br>
+                <div class="text-left absolute hidden bg-white text-black/50 group-hover:block w-max px-5 py-2 rounded shadow-lg fixed" style="background-color: white">
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'daftarpenelitian' }">Daftar Penelitian LBE Tahun 2020</NuxtLink></p>
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'hasilinovasi' }">Hasil Inovasi</NuxtLink></p>
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'hakkekayaan' }">Hak Kekayaan Intelektual</NuxtLink></p>
                 </div>
             </div>
             <p class="text-2xl">|</p>
             <div class="relative group pt-1">
                 <a href="#" class="px-5 hover:text-amber-600 group-hover:text">Kemitraan</a>
-                <div class="absolute hidden bg-white text-white group-hover:block mt-5 w-max p-2 rounded shadow-lg fixed" style="background-color: navy">
-                    <NuxtLink :to="{ name: 'berita' }">Berita</NuxtLink><br>
-                    <NuxtLink :to="{ name: 'berita' }">Sejarah Singkat</NuxtLink><br>
-                    <NuxtLink :to="{ name: 'berita' }">Visi, Misi dan Sasaran</NuxtLink><br>
+                <div class="text-left absolute hidden bg-white text-black/50 group-hover:block w-max px-5 py-2 rounded shadow-lg fixed" style="background-color: white">
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'kerjasamadalamnegeri' }">Kerjasama Dalam Negeri</NuxtLink></p>
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'kerjasamaluarnegeri' }">Kerjasama Luar Negeri</NuxtLink></p>
                 </div>
             </div>
             <p class="text-2xl">|</p>
@@ -106,6 +105,13 @@
                     <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'jurnalcot' }">Jurnal COT</NuxtLink></p>
                     <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'cotnewsletter' }">COT Newsletter</NuxtLink></p>
                     <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'uigcollaboration' }">U-I-G COLLABORATION</NuxtLink></p>
+                </div>
+            </div>
+            <p class="text-2xl">|</p>
+            <div class="relative group pt-1">
+                <a href="#" class="px-5 hover:text-amber-600 group-hover:text">Dharma Wanita</a>
+                <div class="text-left absolute hidden bg-white text-black/50 group-hover:block w-max px-5 py-2 rounded shadow-lg fixed" style="background-color: white">
+                    <p class="py-2 hover:bg-black/10 px-1"><NuxtLink :to="{ name: 'halamanutamadharmawanita' }">Halaman Utama Dharma Wanita</NuxtLink></p>
                 </div>
             </div>
           </li>
