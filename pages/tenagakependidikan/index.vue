@@ -15,14 +15,37 @@
         <!-- header end -->
 
         <section class="my-10 py-8">
-            <div class="ml-28">
-                <h1 class="text-black text-3xl font-bold pb-2">TENAGA KEPENDIDIKAN</h1>
-                <img src="../assets/image/Rectangle19.png" class="ml-100">
+            <div id="tenagaKependidikan">
+                <div v-for="item in tenagaKependidikanData" :key="item.id">
+                    <div class="ml-28">
+                        <h1 v-html="item.judul" class="text-black text-3xl font-bold pb-2"></h1>
+                        <img src="../assets/image/Rectangle19.png" class="ml-100">
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <p class="font-medium text-justify px-28 pt-10" style="font-size: 20px;" v-html="item.isi"></p>
+                    </div>
+                </div>
+
+                <!-- slider -->
+                <ul class="flex space-x-5 text-lg font-bold justify-center items-center">
+                    <li>
+                        <a href="#" class="flex items-center justify-center px-6 h-12 text-zinc-700 bg-white border border-gray rounded-s-lg hover:bg-amber-600 dark:bg-white dark:border-gray dark:hover:text-white">Prev</a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center justify-center px-6 h-12 text-zinc-700 bg-white border border-gray hover:bg-amber-600 dark:bg-white dark:border-gray dark:hover:text-white active:bg-amber-600">1</a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center justify-center px-6 h-12 text-zinc-700 bg-white border border-gray hover:bg-amber-600 dark:bg-white dark:border-gray dark:hover:text-white">2</a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center justify-center px-6 h-12 text-zinc-700 bg-white border border-gray rounded-e-lg hover:bg-amber-600 dark:bg-white dark:border-gray dark:hover:text-white">Next</a>
+                    </li>
+                </ul>
             </div>
 
 
         <!-- table -->
-        <div class="relative overflow-x-auto shadow-md sm:rounded-lg mx-40 my-20">
+        <!-- <div class="relative overflow-x-auto shadow-md sm:rounded-lg mx-40 my-20">
             <table class="w-full text-lg text-center rtl:text-right text-gray-500 dark:text-gray-400">
                 <thead class="text-xl text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                     <tr>
@@ -224,13 +247,13 @@
                         </td>
                     </tr>
                 </tbody>
-            </table>
+            </table> -->
 
             
 
 
 
-        </div>
+        <!-- </div>
         <ul class="flex space-x-5 text-lg font-bold justify-center items-center">
             <li>
                 <a href="#" class="flex items-center justify-center px-6 h-12 text-zinc-700 bg-white border border-gray rounded-s-lg hover:bg-amber-600 dark:bg-white dark:border-gray dark:hover:text-white">Prev</a>
@@ -244,7 +267,25 @@
             <li>
                 <a href="#" class="flex items-center justify-center px-6 h-12 text-zinc-700 bg-white border border-gray rounded-e-lg hover:bg-amber-600 dark:bg-white dark:border-gray dark:hover:text-white">Next</a>
             </li>
-        </ul>
+        </ul> -->
         </section>
     </main>
 </template>
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/tenagaKependidikan"
+    const tenagaKependidikanData = ref([]);
+
+    async function getTenagaKependidikan() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        tenagaKependidikanData.value = data.data
+    }
+
+    onMounted(() => {
+        getTenagaKependidikan();
+    })
+</script>
