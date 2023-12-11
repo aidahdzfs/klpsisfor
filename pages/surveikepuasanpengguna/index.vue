@@ -66,10 +66,43 @@
                         <li>Dekan menindaklanjuti rumusan yang diusulkan dalam bentuk perencanaan program/kegiatan dalam peningkatan pelayanan kepada pengguna layanan akademik.</li>
                     </ul>
                 </ul>
-                <h3 class="font-bold my-5">PERSENTASE KEPUASAN PELANGGAN TIAP SUBBAG</h3>
-                <h3 class="font-bold my-5">PERSENTASE KEPUASAN PELANGGAN FT-UH</h3>
+                <div class="kepuasanpengguna">
+                    <div v-for="item in kepuasanPenggunaData" :key="item.id">
+                        <div>
+                            <h3 v-html="item.judul" class="font-bold my-5"></h3>
+                            <img :src="getImageUrl(item.gambar)" :alt="`kepuasanpengguna ${item.id}`"/>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+                
                 </div>
             </div>
         </section>
     </main>
 </template>
+
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/kepuasanpengguna"
+    const kepuasanPenggunaData = ref('');
+
+    async function getKepuasanPengguna() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        kepuasanPenggunaData.value = data.data
+    }
+
+    onMounted(() => {
+        getKepuasanPengguna();
+    })
+
+    const getImageUrl = (imageName) => {
+        return `http://localhost:8055/assets/${imageName}`
+    }
+</script>

@@ -41,12 +41,17 @@
             </div>
             <div class="text-justify leading-relaxed">
                 <h3 class="font-bold mt-8 mb-2">PELAKSANA TUGAS</h3>
-                <img src="" alt="">
-                <img src="" alt="">
+                <div id="profil gpm" class="flex items-center justify-center space-x-40">
+                    <div v-for="item in profilgpmData" :key="item.id" class=" ">
+                        <img :src="getImageUrl(item.gambar)" :alt="`profilgpm ${item.id}`" class="mt-10 mb-4 h-48 w-44 relative m-auto"/>
+                        <h1 v-html="item.judul" class=" font-bold text-base"></h1>
+                        <p v-html="item.isi" class=" text-sm text-center"></p>
+                    </div>
+                </div>
             </div>
             <div class="text-justify leading-relaxed">
                 <h3 class="font-bold mt-8 mb-2">REFERENSI</h3>
-                <ul class="list-outside list-decimal text-justify ml-10 text-left space-y-2 text-sm mt-4">
+                <ul class="list-outside list-decimal text-justify ml-10 space-y-2 text-sm mt-4">
                     <li>PERATURAN SENAT AKADEMIK UNIVERSITAS HASANUDDIN NOMOR:4867/UN4.2/IT.03/2017 TENTANG KEBIJAKAN SISTEM PENJAMINAN MUTU INTERNAL UNIVERSITAS HASANUDDIN</li>
                     <li>PERATURAN REKTOR UNIVERSITAS HASANUDDIN NOMOR 8/UN4.1/2018 TENTANG ORGANISASI DAN TATA KERJA PENGELOLA UNIVERSITAS HASANUDDIN</li>
                     <li>PERATURAN REKTOR UNIVERSITAS HASANUDDIN NOMOR 10/UN4.1/2018 TENTANG ORGANISASI DAN TATA KERJA LEMBAGA DAN SATUAN UNIVERSITAS HASANUDDIN</li>
@@ -57,3 +62,26 @@
         </section>
     </main>
 </template>
+
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/profilgpm"
+    const profilgpmData = ref([]);
+
+    async function getProfilgpm() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        profilgpmData.value = data.data
+    }
+
+    onMounted(() => {
+        getProfilgpm();
+    })
+
+    const getImageUrl = (imageName) => {
+        return `http://localhost:8055/assets/${imageName}`
+}
+</script>

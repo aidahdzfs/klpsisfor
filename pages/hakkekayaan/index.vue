@@ -6,7 +6,7 @@
                 <img class="w-[100%] left-0 top-2 absolute" src="../assets/image/jkcenterhlm.png" />
                 <div class="w-[1439px] h-[201px] left-0 top-[1px] absolute bg-blue-400 bg-opacity-30"></div>
                 <div class="w-[474px] h-[45px] relative top-20 left-20">
-                    <a href="#" class="w-[302px] h-[45px] left-[172px] absolute text-slate-300 text-2xl font-semibold">Kalender Akademik</a>
+                    <a href="#" class="w-[302px] h-[45px] left-[172px] absolute text-slate-300 text-2xl font-semibold">Hak Kekayaan Intelektual</a>
                     <a href="#" class="w-[172px] h-[45px] left-0 absolute text-center text-sky-950 text-2xl font-semibold">Halaman</a>
                     <a href="#" class="w-[180px] h-[45px] left-16 pt-1 absolute text-center text-sky-950 text-xl font-semibold">  > </a>
                 </div>
@@ -14,42 +14,34 @@
         </section>
         <!-- header end -->
 
-        <section class="my-10 py-8">
-            <div class="ml-28">
-                <h1 class="text-black text-3xl font-bold pb-2">KALENDER AKADEMIK</h1>
-                <img src="../assets/image/Rectangle19.png" class="mb-10">
-            </div>
-            <div id="kalender">
-                <div v-for="item in kalenderData" :key="item.id">
-                    <div class="flex space-x-10 items-center justify-center ">
-                        <img :src="getImageUrl(item.gambar)" :alt="`kalender ${item.id}`" class="max-w-xl">
-                        <img :src="getImageUrl(item.gambar1)" :alt="`kalender ${item.id}`" class="max-w-xl">
+        <section class="mt-10 py-8">
+            <div id="pengembangankarakter">
+                <div v-for="item in kekayaanData" :key="item.id" class="pb-20">
+                    <div class="ml-28 pb-10">
+                        <h1 v-html="item.judul" class="text-black text-3xl font-bold pb-2"></h1>
+                        <img src="../assets/image/line.png" class="ml-100">
                     </div>
+                    <p class=" px-40 text-xl" v-html="item.isi"></p>
                 </div>
             </div>
         </section>
     </main>
 </template>
 
-
 <script setup>
     import { ref, computed, onMounted } from "vue";
 
-    const endpoint = "http://localhost:8055/items/kalender"
-    const kalenderData = ref([]);
+    const endpoint = "http://localhost:8055/items/hakkekayaan"
+    const kekayaanData = ref('');
 
-    async function getKalender() {
+    async function getKekayaan() {
         const api = await fetch(endpoint)
         const data = await api.json()
         console.log(data.data)
-        kalenderData.value = data.data
+        kekayaanData.value = data.data
     }
 
     onMounted(() => {
-        getKalender();
+        getKekayaan();
     })
-
-    const getImageUrl = (imageName) => {
-        return `http://localhost:8055/assets/${imageName}`
-    }
 </script>

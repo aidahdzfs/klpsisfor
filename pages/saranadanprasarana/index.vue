@@ -19,6 +19,43 @@
                 <h1 class="text-black text-3xl font-bold pb-2">SARANA DAN PRASARANA</h1>
                 <img src="../assets/image/Rectangle19.png" class="ml-100">
             </div>
+            <div id="saranadanprasarana">
+                
+                <div v-for="item in saranaData" :key="item.data" class="pb-10">
+                    <div class="my-4">
+                        <h1 v-html="item.isi" class=" text-xl px-28"></h1>
+                    </div>
+                    <div class="px-28 flex space-x-20 items-center justify-center">
+                        <img :src="getImageUrl(item.gambar)" :alt="`sarana ${item.id}`" class=" h-[300px] w-[490px] pt-4"/>
+                        <img :src="getImageUrl(item.gambar2)" :alt="`sarana ${item.id}`" class="h-[300px] w-[490px] pt-4"/>
+                    </div>
+                    
+                    
+                </div>
+            </div>
         </section>
     </main>
 </template>
+
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/sarana"
+    const saranaData = ref('');
+
+    async function getSarana() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        saranaData.value = data.data
+    }
+
+    onMounted(() => {
+        getSarana();
+    })
+
+    const getImageUrl = (imageName) => {
+        return `http://localhost:8055/assets/${imageName}`
+    }
+</script>
