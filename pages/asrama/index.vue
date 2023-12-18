@@ -14,32 +14,38 @@
         </section>
         <!-- header end -->
 
-        <section class="ml-28 my-10 py-8">
+        <section class="mx-28 my-10 py-8">
             <div>
                 <h1 class="text-black text-3xl font-bold pb-2">UPT ASRAMA (RAMTEK)</h1>
                 <img src="../assets/image/Rectangle19.png">
             </div>
-            <div class="pr-[155px] text-justify text-lg leading-relaxed">
-                <p class="mt-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asrama Mahasiswa Fakultas Teknik (Ramtek) membuka kesempatan kepada seluruh mahasiswa baru tahun ajaran 2021/2022 untuk menjadi warga baru Ramtek Unhas. Asrama ini memiliki multi fungsi sebagai tempat tinggal yang kondusif, ekonomis dan strategis karena berada di lingkungan kampus, dan juga sekaligus sebagai tempat untuk pengembangan potensi akademik dan organisasi. Salah satu program unggulan adalah University Student Leadership Academy (USLA) yang terintegrasi dalam program pengembangan kemahasiswaan pada tahun pertama.</p>
-                <h3 class="font-bold mt-8 mb-2">Tarif asrama :</h3>
-                <ul class="list-outside list-decimal ml-10 text-left space-y-2 pr-[155px]">
-                    <li>Unhas Kalla (Putra) Rp. 3.500.000,-</li>
-                    <li>Ramtek 2 (Lantai 1 dan 2) Rp. 3.500.000,-</li>
-                    <li>Ramtek 2 (Lantai 3 dan 4) Rp. 3.250.000,-</li>
-                    <li>Ramtek 3 (Lantai 1 dan 2) Rp. 3.250.000,-</li>
-                    <li>Ramtek 3 (Lantai 3) Rp. 3.250.000,-</li>
-                    <li>Ramtek 3 (Lantai 4 dan 5) Rp. 2.750.000,-</li>
-                </ul>
-                <h3 class="font-bold mt-8 mb-2">Informasi dan pendaftaran :</h3>
-                <ul class="list-outside list-disc ml-10 text-left space-y-2 pr-[155px]">
-                    <li>Ramtek Putra 0822 7147 4278 (Ibu Nuraeni)</li>
-                    <li>Ramtek Putri 0813 4220 5656 (Ibu Suhana)</li>
-                </ul>
+            <div class="text-justify text-lg leading-relaxed">
+                <div id="asrama">
+                    <div v-for="item in asramaData" :key="item.id">
+                        <div style="margin-bottom: 20px;">
+                            <p class="font-medium text-justify pt-10" style="font-size: 20px;" v-html="item.isi"></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-
-
     </main>
-
-
 </template>
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/asrama"
+    const asramaData = ref('');
+
+    async function getAsrama() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        asramaData.value = data.data
+    }
+
+    onMounted(() => {
+        getAsrama();
+    })
+</script>

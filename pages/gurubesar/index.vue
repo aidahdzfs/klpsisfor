@@ -21,13 +21,9 @@
             </div>
 
             <div v-for="item in gurubesarData" :key="item.id">
-
                     <div class="flex items-center justify-center py-20 mx-20 px-20" v-html="item.isi">
                     </div>
                 </div>
-            <!-- <div class="flex items-center justify-center pt-10">
-                <img src="../assets/image/gurubesar.png" alt="gurubesar" class="w-[1275px] h-[3157px]">
-            </div> -->
         </section>
     </main>
 </template>

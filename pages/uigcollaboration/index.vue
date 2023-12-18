@@ -15,10 +15,31 @@
         <!-- header end -->
 
         <section class="py-8 my-10 ml-28">
-            <div class="text-lg pr-[155px] text-justify leading-relaxed">
-                <p class="mb-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dalam rangka pencapaian visi Universitas Hasanuddin (Unhas) sebagai pusat unggulan dalam pengembangan insani, ilmu pengetahuan, teknologi, seni dan budaya berbasis benua maritim Indonesia, maka fakuktas Teknik Unhas membentuk suatu unit kerja yang dikenal dengan nama Center of Technology (CoT). Fungsi utama CoT dimaksudkan untuk mengkoordinir dan menjembatani kerja kolaborasi kemitraan antara Universitas, Industri, dan Pemerintah (U-I-G Collaboration) khususnya di Kawasan Timur Indonesia (KTI).</p>
-                <p class="">For Further Information klik: <span class="font-semibold text-sky-700 hover:text-navy"><a href="https://cot.unhas.ac.id/">http://cot.unhas.ac.id/</a></span></p>
+            <div id="uigCollaboration">
+                <div v-for="item in uigCollaborationData" :key="item.id">
+                    <div style="margin-bottom: 20px;">
+                        <p v-html="item.isi"></p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 </template>
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/uigcollaboration"
+    const uigCollaborationData = ref('');
+
+    async function getUigCollaboration() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        uigCollaborationData.value = data.data
+    }
+
+    onMounted(() => {
+        getUigCollaboration();
+    })
+</script>

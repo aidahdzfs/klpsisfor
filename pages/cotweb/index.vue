@@ -14,12 +14,33 @@
         </section>
         <!-- header end -->
 
-        <section class="py-8 my-10 ml-28">
-            <div class="text-lg">
+        <section class=" py-8 my-10 ml-28">
+            <div id="cotweb" class="text-lg">
                 <h1 class="text-extrabold text-2xl font-black pb-10">Center of Technology (CoT)</h1>
-                <p class="pr-[155px] text-justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COT adalah kantor pengelola fakultas yang terletak di Kampus Baru UNHAS Gowa disebut Gedung Center of Technology. Sebagai institusi akademik dengan tiga pilar pendidikan tinggi, manajemen saat ini terutama difokuskan pada pemenuhan kebutuhan mahasiswa dan staf akademik untuk melakukan kegiatan pembelajaran dan penelitian.</p>
-                <p class="font-semibold mt-10">Untuk Informasi lebih lanjut<span><a href="https://cot.unhas.ac.id/" class="text-sky-700 hover:text-navy">&nbsp;klik disini</a></span></p>
+                <div v-for="item in cotwebData" :key="item.id">
+                    <div style="margin-bottom: 20px;">
+                        <p class="text-justify" v-html="item.isi"></p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 </template>
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/cotweb"
+    const cotwebData = ref('');
+
+    async function getCotweb() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        cotwebData.value = data.data
+    }
+
+    onMounted(() => {
+        getCotweb();
+    })
+</script>

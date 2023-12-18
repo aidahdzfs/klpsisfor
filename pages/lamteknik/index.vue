@@ -22,7 +22,7 @@
 
             <div id="lamteknik">
                 <div v-for="item in lamData" :key="item.id">
-                    <div class="flex space-x-10 items-center justify-center pt-10">
+                    <div class="flex space-x-10 items-center justify-center pt-10 pb-20">
                         <img :src="getImageUrl(item.gambar)" :alt="`lamteknik ${item.id}`" class="max-w-xl">
                         <img :src="getImageUrl(item.gambar2)" :alt="`lamteknik ${item.id}`" class="max-w-xl">
                     </div>

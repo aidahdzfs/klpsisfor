@@ -18,19 +18,31 @@
             <div>
                 <h1 class="text-black text-xl font-extrabold pb-5">Aturan Kemahasiswaan FT-UH</h1>
             </div>
-            <div class="pr-[155px] text-justify leading-relaxed">
-                <h3 class="font-bold mb-2"></h3>
-                <ul class="list-outside list-decimal ml-10 text-left space-y-2 pr-[155px] text-lg">
-                    <li class="text-sky-700 hover:text-navy"><a href="https://drive.google.com/file/d/10rdBjpZPoNmlVHDmRW-cKVpHjEcr7N8b/view?usp=sharing">Pengaturan Rektor</a></li>
-                    <li class="text-sky-700 hover:text-navy"><a href="https://drive.google.com/file/d/1JWDirmLACE0KUo9YLMSpi_plU0pA62Yd/view?usp=sharing">Panduan Pelaksanaan Kegiatan Tri Dharma Unhas Selama Masa Pandemi Covid-19</a></li>
-                    <li class="text-sky-700 hover:text-navy"><a href="https://drive.google.com/file/d/1tZfVdesgP0IhlLyUt7WAXIQkt-q9vrJG/view?usp=sharing">PP No 53 2015 Statuta Unhas</a></li>
-                    <li class="text-sky-700 hover:text-navy"><a href="https://drive.google.com/file/d/1UoYZdIEXIOvkRBSyUv5a-rYzNE6UlkGZ/view?usp=sharing">Peraturan Dekan Tentang Pengelolaan dan Penyelenggaraan Kemahasiswaan Program Sarjana FT-UH</a></li>
-                </ul>
+            <div id="aturanKemahasiswaan" class="pr-[155px] text-justify leading-relaxed">
+                <div v-for="item in aturanKemahasiswaanData" :key="item.id">
+                    <div style="margin-bottom: 20px;">
+                        <p class="text-left space-y-2 pr-[155px] text-lg" v-html="item.isi"></p>
+                    </div>
+                </div>
             </div>
         </section>
-
-
     </main>
-
-
 </template>
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/aturankemahasiswaan"
+    const aturanKemahasiswaanData = ref('');
+
+    async function getAturanKemahasiswaan() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        aturanKemahasiswaanData.value = data.data
+    }
+
+    onMounted(() => {
+        getAturanKemahasiswaan();
+    })
+</script>

@@ -30,33 +30,6 @@
 
 
             </div>
-            <!-- <div class="ml-28">
-                <h1 class="text-black text-3xl font-bold pb-2">PIMPINAN FAKULTAS</h1>
-                <img src="../assets/image/Rectangle19.png" class="ml-100">
-            </div>
-
-            <div class="text-center">
-                <img src="../assets/image/dekan.png" alt="dekan" class="mt-10 mb-4 h-48 w-44 relative m-auto">
-                <p class="font-bold text-sm">Prof. Dr. Eng. Ir. Muhammad Isran Ramli, S.T., M.T., IPM., ASEAN Eng.</p>
-                <p>Dekan</p>
-            </div>
-            <div class="text-center flex space-x-10 relative justify-center mt-10">
-                <div>
-                    <img src="../assets/image/wdakademik.png" alt="wdakademik" class="mt-10 mb-4 h-48 w-44 relative m-auto">
-                    <p class="font-bold text-sm">Dr. Amil Ahmad Ilham, S.T., M.IT.</p>
-                    <p class="text-sm">Wakil Dekan Bidang Akademik dan Kemahasiswaan</p>
-                </div>
-                <div>
-                    <img src="../assets/image/wdsdm.png" alt="wdsdm" class="mt-10 mb-4 h-48 w-44 relative m-auto">
-                    <p class="font-bold text-sm">Dr. Eng. Ir. Muhammad Rusman, M.T.</p>
-                    <p class="text-sm">Wakil Dekan Bidang Perencanaan, Sumber Daya dan Alumni</p>
-                </div>
-                <div>
-                    <img src="../assets/image/wdriset.png" alt="wdriset" class="mt-10 mb-4 h-48 w-44 relative m-auto">
-                    <p class="font-bold text-sm">Dr. Ir. Rustan Tarakka, M.T.</p>
-                    <p class="text-sm">Wakil Dekan Bidang Kemitraan, Riset dan Inovasi</p>
-                </div>
-            </div> -->
         </section>
     </main>
 </template>

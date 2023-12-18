@@ -15,10 +15,32 @@
         <!-- header end -->
 
         <section class="py-8 my-10 ml-28">
-            <div class="text-lg pr-[155px] text-justify leading-relaxed">
-                <p class="mb-5"><span class="font-extrabold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CoT News Letter</span> merupakan salah satu media komunikasi mengenai jejak langkah aktivitas CoT sejak awal pembentukan hingga perkembangan sejalan waktu. Media ini memberikan informasi berkala mengenai hal-hal terkait tentang berita dan kegiatan oleh Center of Technology. CoT News Letter diterbitkan dan dikelola oleh Divisi Promosi Keteknikan, Center of Technology, Fakultas Teknik, Universitas Hasanuddin.</p>
-                <p class="">File CoT News Letter dapat diunduh di sini: <span class="font-semibold text-sky-700 hover:text-navy"><a href="https://cot.unhas.ac.id/newsletter">http://cot.unhas.ac.id/newsletter</a></span></p>
+            <div id="cotNewsLetter">
+                <div v-for="item in cotNewsLetterData" :key="item.id">
+                    <div style="margin-bottom: 20px;">
+                        <p v-html="item.isi"></p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 </template>
+
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/cotnewsletter"
+    const cotNewsLetterData = ref('');
+
+    async function getCotNewsLetter() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        cotNewsLetterData.value = data.data
+    }
+
+    onMounted(() => {
+        getCotNewsLetter();
+    })
+</script>

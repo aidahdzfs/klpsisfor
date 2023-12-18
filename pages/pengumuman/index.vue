@@ -15,18 +15,31 @@
         <!-- header end -->
 
         <section class="my-10 text-lg ml-28 py-8">
-            <div class=" my-5 pr-[155px] text-justify leading-relaxed">
-                <h1 class="text-black font-bold pb-5">PERATURAN REKTOR UNIVERSITAS HASANUDDIN <br> NOMOR: 25000/UN4.1/OT,10/2016</h1>
-                <h1 class="text-black font-bold">ORGANISASI DAN TATA KERJA FAKULTAS DAN SEKOLAH UNIVERSITAS HASANUDDIN</h1>
-                <h3 class="font-bold mt-10 mb-2">Tugas dan Tanggungjawab Wakil Dekan Bidang Kemahasiswaan dan Alumni :</h3>
-            </div>
-            <ol class="list-outside list-decimal ml-10 text-left space-y-3 pr-[155px]">
-                <li>Perumusan program dan kegiatan sesuai rencana strategis, kebijakan dan sistem manajemen yang telah ditetapkan pada bidang kemahasiswaan dan alumni di tingkat Fakultas</li>
-                <li>Pengoordinasian pelaksanaan program dan kegiatan bidang kemahasiswaan dan alumni</li>
-                <li>Pengawasan, pengendalian dan pengevaluasian pelaksanaan kegiatan bidang kemahasiswaan dan alumni</li>
-                <li>Pengendalian standar kualitas bidang kemahasiswaan dan alumni di tingkat Fakultas</li>
-                <li>Penyusunan laporan tahunan kegiatan kemahasiswaan dan alumni di tingkat Fakultas sebagai pertanggungjawaban Wakil Dekan kepada Dekan</li>
-            </ol>
+            <div id="sejarah">
+                    <div v-for="item in pengumumanData" :key="item.id">
+                        <div style="margin-bottom: 20px;">
+                            <p v-html="item.isi"></p>
+                        </div>
+                    </div>
+                </div>
         </section>
     </main>
 </template>
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/pengumuman"
+    const pengumumanData = ref('');
+
+    async function getPengumuman() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        pengumumanData.value = data.data
+    }
+
+    onMounted(() => {
+        getPengumuman();
+    })
+</script>

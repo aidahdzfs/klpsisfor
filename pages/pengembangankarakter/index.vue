@@ -22,7 +22,7 @@
                         <img src="../assets/image/line.png" class="ml-100">
                     </div>
                     <p class="px-40 font-semibold pb-10" v-html="item.isi1"></p>
-                    <p class=" px-80 text-2xl font-bold" v-html="item.isi"></p>
+                    <p class=" px-80 text-2xl" v-html="item.isi"></p>
                 </div>
             </div>
         </section>

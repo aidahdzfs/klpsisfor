@@ -29,8 +29,6 @@
                         <img :src="getImageUrl(item.gambar)" :alt="`sarana ${item.id}`" class=" h-[300px] w-[490px] pt-4"/>
                         <img :src="getImageUrl(item.gambar2)" :alt="`sarana ${item.id}`" class="h-[300px] w-[490px] pt-4"/>
                     </div>
-                    
-                    
                 </div>
             </div>
         </section>

@@ -17,7 +17,7 @@
         <section class="mt-10 py-8">
             <div id="inbound">
                 <div v-for="item in inboundData" :key="item.id" class="pb-20">
-                    <p class=" px-20 text-xl font-bold" v-html="item.isi"></p>
+                    <p class=" px-20 text-xl" v-html="item.isi"></p>
                 </div>
             </div>
         </section>

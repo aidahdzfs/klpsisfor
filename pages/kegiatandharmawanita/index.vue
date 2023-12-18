@@ -21,41 +21,25 @@
             </div>
 
 
-        <div id="kegiatandharmawanita" class="text-justify pl-28 pt-10 pb-20 pr-96 grid gap-24 grid-cols-2">
-            <div v-for="item in kegiatandharmawanitaData" :key="item.id">
-                <div class="mt-4 mb-4">
-                    <img :src="getImageUrl(item.gambar)" :alt="`berita ${item.id}`" class="relative m-auto" style="width: 100vw; height: 100%; margin-bottom: 20px; margin-top: 10px;"/>
+            <div id="kegiatandharmawanita" class="text-justify pl-28 pt-10 pb-20 pr-96 grid gap-24 grid-cols-2">
+                <div v-for="item in kegiatandharmawanitaData" :key="item.id">
+                    <div class="mt-4 mb-4">
+                        <img :src="getImageUrl(item.gambar)" :alt="`berita ${item.id}`" class="relative m-auto" style="width: 100vw; height: 100%; margin-bottom: 20px; margin-top: 10px;"/>
+                        <div>
+                        <h1 class="font-bold max-w-lg cursor-pointer hover:text-amber-600" style="font-size: 15px; padding-right: 100px;" v-html="item.judul">
+                        </h1>
+                        </div>
+                    </div>
+                    <div class="flex flex-row space-x-36 pt-10">
+                        <p class="flex text-gray"><img src="../assets/image/kalender.png" alt="error">{{ item.kalender }}</p>
+                        <p class="flex text-gray"><img src="../assets/image/profile.png" alt="error">{{ item.admin }}</p>
+                    </div>
+                    <img src="../assets/image/line3.png" alt="error" class="">
                     <div>
-                    <h1 class="font-bold max-w-lg cursor-pointer hover:text-amber-600" style="font-size: 15px; padding-right: 100px;" v-html="item.judul">
-                    </h1>
+                        <p v-html="item.isikegiatan"></p>
                     </div>
-                </div>
-                <div class="flex flex-row space-x-36 pt-10">
-                    <p class="flex text-gray"><img src="../assets/image/kalender.png" alt="error">{{ item.kalender }}</p>
-                    <p class="flex text-gray"><img src="../assets/image/profile.png" alt="error">{{ item.admin }}</p>
-                </div>
-                <img src="../assets/image/line3.png" alt="error" class="">
-                <div>
-                    <p v-html="item.isikegiatan"></p>
                 </div>
             </div>
-      </div>
-
-
-            <!-- <div class="ml-28">
-                <h1 class="text-black text-3xl font-bold pb-2">KEGIATAN DHARMA WANITA</h1>
-                <img src="../assets/image/line.png" class="ml-100">
-            </div>
-            <div id="sejarah">
-                <div v-for="item in sejarahData" :key="item.id">
-                    <div style="margin-bottom: 20px;">
-                        <p class="font-medium text-justify px-28 pt-10" style="font-size: 20px;" v-html="item.isi"></p>
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <img :src="getImageUrl(item.gambar)" :alt="`sejarah ${item.id}`" class="w-[850px] h-[450px] mt-10 mb-20"/>
-                    </div>
-                </div>
-            </div> -->
         </section>
     </main>
 </template>

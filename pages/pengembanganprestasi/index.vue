@@ -22,16 +22,11 @@
                         <img src="../assets/image/line.png" class="ml-100">
                     </div>
                     <p class=" px-80 text-2xl" v-html="item.isi"></p>
-                    <ol class="list-outside list-decimal ml-28 text-left space-y-3 text-lg pt-10">
-                        <li v-html="item.isi1"></li>
-                        <li v-html="item.isi2"></li>
-                        <li v-html="item.isi3"></li>
-                        <li v-html="item.isi4"></li>
-                    </ol>
-                    
+                    <div class="list-outside list-decimal ml-28 text-left space-y-3 text-lg pt-10">
+                        <p v-html="item.isi1"></p>
+                    </div>  
                 </div>
             </div>
-                
         </section>
     </main>
 </template>

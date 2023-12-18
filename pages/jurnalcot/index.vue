@@ -16,11 +16,32 @@
 
         <section class="py-8 my-10 ml-28">
             <div class="text-lg pr-[155px] text-justify leading-relaxed">
-                <p class="mb-5"><span class="font-extrabold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jurnal COT</span> merupakan media publikasi ilmiah untuk hasil-hasil inovasi terkini dalam bidang kajian dan rekayasa ilmu pengetahuan dan teknologi keteknikan. Jurnal ini diterbitkan oleh Divisi Publikasi Ilmiah, Center of Technology, Fakultas Teknik Universitas Hasanuddin.</p>
-                <p class="mb-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jurnal CoT terdiri dari Jurnal Penelitian Enjiniring (JPE), The EPI International Journal of Engineering (EPIIJE), Jurnal Rekayasa Transportasi, Lowland Technology International, dan Jurnal TEPAT (Pengabdian Kepada Masyarakat).</p>
-                <p class="mb-5 ">OJS Jurnal Penelitian: <span class="font-semibold text-sky-700 hover:text-navy"><a href="https://cot.unhas.ac.id/journals/"> http://cot.unhas.ac.id/journals/</a></span></p>
-                <p class="">OJS Jurnal Pengabdian Kepada Masyarakat: <span class="font-semibold text-sky-700 hover:text-navy"><a href="https://eng.unhas.ac.id/tepat/index.php/Jurnal_Tepat">eng.unhas.ac.id/tepat</a></span></p>
+                <div id="jurnalCot">
+                    <div v-for="item in jurnalcotData" :key="item.id">
+                        <div style="margin-bottom: 20px;">
+                            <p v-html="item.isi"></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 </template>
+
+<script setup>
+    import { ref, computed, onMounted } from "vue";
+
+    const endpoint = "http://localhost:8055/items/jurnalcot"
+    const jurnalcotData = ref('');
+
+    async function getJurnalcot() {
+        const api = await fetch(endpoint)
+        const data = await api.json()
+        console.log(data.data)
+        jurnalcotData.value = data.data
+    }
+
+    onMounted(() => {
+        getJurnalcot();
+    })
+</script>

@@ -43,6 +43,7 @@
                 <h3 class="font-bold mt-8 mb-2">PELAKSANA TUGAS</h3>
                 <div id="profil gpm" class="flex items-center justify-center space-x-40">
                     <div v-for="item in profilgpmData" :key="item.id" class=" ">
+                        <p v-html="item.isi1" class=" text-sm text-center"></p>
                         <img :src="getImageUrl(item.gambar)" :alt="`profilgpm ${item.id}`" class="mt-10 mb-4 h-48 w-44 relative m-auto"/>
                         <h1 v-html="item.judul" class=" font-bold text-base"></h1>
                         <p v-html="item.isi" class=" text-sm text-center"></p>

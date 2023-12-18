@@ -86,24 +86,4 @@
     const getImageUrl = (imageName) => {
         return `http://localhost:8055/assets/${imageName}`
     }
-
-    // import { ref, computed, onMounted } from "vue";
-
-    // const endpoint = "http://localhost:8055/items/kegiatandharmawanita"
-    // const kegiatandharmawanitaData = ref([]);
-
-    // async function getKegiatandharmawanita() {
-    //     const api = await fetch(endpoint)
-    //     const data = await api.json()
-    //     console.log(data.data)
-    //     kegiatandharmawanitaData.value = data.data
-    // }
-
-    // onMounted(() => {
-    //     getKegiatandharmawanita();
-    // })
-
-    // const getImageUrl = (imageName) => {
-    //     return `http://localhost:8055/assets/${imageName}`
-    // }
 </script>
